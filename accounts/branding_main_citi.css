@@ -1,0 +1,1635 @@
+@import url('branding_main.css');
+
+@font-face { 
+    font-family: Interstate_Light ; 
+    src: url(/GFC/branding/fonts/Interstate-Light.woff); 
+    src: url(/GFC/branding/fonts/Interstate-Light.eot?#iefix) format("embedded-opentype"),url(/GFC/branding/fonts/Interstate-Light.woff) format("woff"),url(/GFC/branding/fonts/Interstate-Light.ttf) format("truetype"),url(/GFC/branding/fonts/Interstate-Light.svg#fontname) format("svg");
+} 
+@font-face { 
+    font-family: Interstate_Bold; 
+    src: url(/GFC/branding/fonts/Interstate-Bold.woff); 
+    src: url(/GFC/branding/fonts/Interstate-Bold.eot?#iefix) format("embedded-opentype"),url(/GFC/branding/fonts/Interstate-Bold.woff) format("woff"),url(/GFC/branding/fonts/Interstate-Bold.ttf) format("truetype"),url(/GFC/branding/fonts/Interstate-Bold.svg#fontname) format("svg");
+}  
+
+
+.cS-pageCenter, #header.cS-mainHeader, 
+#footer.cS-mainFooter,
+body > .cR-citiWrapper {
+    width: 100% !important;
+    min-width: 984px;
+    margin: 0 auto;
+}
+
+
+#jfpBody, .cR-citiWrapper.cR-citiBodyWrapper,.StructPrimaryContainer,
+body > .cR-citiWrapper > .cR-citiFloatContainer, .cA-upgradeBrowserBanner-Wrapper {
+    width: 984px;
+    margin: 0 auto;
+}
+
+body > .cR-citiWrapper > .cR-citiFloatContainer{
+    float: none;
+}
+
+.reskinHeader .cM-spriteBase {
+    background-image:url("/CBOL/common/images/global_sprite.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    position:relative;
+}
+
+.reskinHeader .maxWidth,
+.reskinFooter .maxWidth{
+    max-width: 1440px;
+    margin: 0 auto !important;
+    height: 100%;
+}
+
+.reskinFooter .footer_wrapper{
+    max-width: 1480px;
+    margin: 0 auto !important;
+}
+
+.reskinFooter fieldset, ul.appNavForADA,
+.reskinHeader fieldset, ul.appNavForADA{ 
+    background:none !important; 
+}
+
+.reskinHeader ul li, .reskinHeader li,
+.reskinFooter ul li, .reskinFooter li{
+   font-family: Interstate_Light, sans-serif !important; 
+}
+
+#citilmHeader.reskinHeader td, 
+#citilmHeader.reskinHeader th, 
+#citilmHeader.reskinHeader div, 
+#citilmHeader.reskinHeader li {
+    font-family: Interstate_Light, sans-serif !important;
+}
+
+#citilmHeader.reskinHeader #nav_utility.citiBrandingNav {
+    background:#333 !important;
+    clear: both !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+    padding: 0 !important;
+    height: 26px !important;
+    display: block !important;
+}
+
+#citilmHeader.reskinHeader #nav_main {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+}
+
+#citilmHeader.reskinHeader .citiBrandingNav ul{
+    padding-left: 0px !important;
+}
+
+#citilmHeader.reskinHeader .citiBrandingNav li {
+    float: left !important;
+    /*padding: 12px 0 !important;*/
+    margin: 0px !important;
+}
+
+#citilmHeader.reskinHeader #nav_welcome_cards_logo { 
+        margin : auto !important ;
+        width: 940px !important ;
+}
+
+#citilmHeader.reskinHeader #nav_welcome li
+{
+    /*padding-left: 27px !important;*/
+    font-family: arial,sans-serif !important;
+}
+
+#citilmHeader.reskinHeader .megaMenuColor li {
+    
+    float: left !important;
+    padding: 0px 0px !important;
+    margin: 0px !important;
+
+}
+
+#citilmHeader.reskinHeader .megaMenuColor li a:hover,
+#citilmHeader.reskinHeader .megaMenuColor li a:focus{
+    border-bottom:5px solid #056DAE !important;
+    color:#056DAE !important;  
+}
+
+#citilmHeader.reskinHeader .megaMenuColor li.active{
+    border-bottom:5px solid #333;
+    color: #333;
+}
+
+#citilmHeader.reskinHeader .megaMenuColor li a {
+    color: #333 !important;
+    padding-top: 24px !important;
+    padding-bottom: 18px !important;
+}
+
+.reskinHeader .mm_subnav{
+    display: block;
+    position: relative;
+    width:100% ;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) ;
+}
+
+.reskinHeader .mm_subnav:hover{
+    text-align: left;
+    border-bottom:0px solid #fff !important;
+    color: #056DAE;
+}
+
+.reskinHeader .mm_subnav a{
+    text-align:left !important;
+    width: auto;
+    margin-left: 5px;
+}
+
+.reskinHeader .mm_subnav a:hover{
+    color: #056DAE;
+}
+
+#citilmHeader.reskinHeader .citiBrandingNav .mm_subnav a{
+    display:block !important;
+}
+
+#citilmHeader.reskinHeader div .dropdown_header{
+    background-color: #fff !important;
+    top: 62px;
+    /*margin-top:6px !important;*/
+    width: 55% !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+    z-index: 1;
+}
+
+.reskinHeader .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#citilmHeader.reskinHeader {
+    
+    color: #000000 !important;
+    font-size: 11px !important;
+    line-height: 13px !important;
+    margin-bottom: 0 !important;
+    overflow: visible !important;
+    position: relative !important;
+    width: 100% !important;
+    z-index: 101 !important;
+    min-width: 984px ;
+
+}
+
+#citilmHeader.reskinHeader.reskinResHeader {
+     min-width: auto;
+} 
+
+#citilmHeader.reskinHeader.public {
+    background: none !important;
+}
+
+#citilmHeader.reskinHeader.plain_header{
+    background: transparent url("/GFC/branding/img/bg-marketing-banner.jpg") repeat-x scroll 0 22px !important; 
+}
+
+#citilmHeader.reskinHeader .blue_banner_header{
+    position:relative;
+    background: linear-gradient(180deg, #00bdf2, #00b3f0 18%, #0066b3 77%, #004985) ;
+    width:100% ;
+    height:70px ;
+    left:0px ;
+}
+
+#citilmHeader.reskinHeader.citiGoldAccount .blue_banner_header{
+    background: -webkit-linear-gradient(top,#b4975a,#78622a);
+    background: -webkit-linear-gradient(top,#b4975a,#78622a 99%);
+    background: linear-gradient(-180deg,#b4975a,#78622a 99%);
+}
+
+#citilmHeader.reskinHeader.citiPriorityAccount .blue_banner_header {
+    background: -webkit-linear-gradient(top,#0e2a48,#0e2a48);
+    background: -webkit-linear-gradient(top,#0e2a48,#0e2a48 99%);
+    background: linear-gradient(-180deg,#0e2a48,#0e2a48 99%);
+}
+
+#citilmHeader.reskinHeader.citiPriorityAccount #headerLogoLink > img {
+    width: 198px;
+    height: 40px;
+}
+
+.reskinHeader .search_container,
+.reskinHeader .search_container_cobrands {
+    position: relative !important;
+    float: right !important;
+    width: 65px;
+    height: 70px;
+    cursor:pointer;
+}
+
+.reskinHeader .search_active{
+    background-color: rgba(0, 0, 0, 0.25)!important;
+}
+
+.reskinHeader .pull-right,
+.reskinFooter .pull-right {
+    float: right;
+}
+
+.reskinHeader .blue_banner_header .searchbar {
+    position: relative;
+    z-index: 15;
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #FFF;
+    -webkit-transition: all .2s cubic-bezier(0.55, .085, .68, .53);
+    transition: all .2s cubic-bezier(0.55, .085, .68, .53);
+}
+
+.reskinHeader .nav_main .searchbar {
+    position: relative;
+    z-index: 15;
+    float: right;
+    width: 300px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #FFF;
+    -webkit-transition: all .2s cubic-bezier(0.55, .085, .68, .53);
+    transition: all .2s cubic-bezier(0.55, .085, .68, .53);
+}
+
+.reskinHeader .searchbar .searchbar-btn {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0px;
+    width: 55px;
+    height: 70px;
+    text-indent: -999999px;
+    overflow: hidden;
+    color: #FFF;
+    border: 0;
+    background-color: transparent;
+    background-image : url('/CBOL/common/ddl/1.1.0/images/catalogue/search-white.png') !important;
+    background-repeat: no-repeat;
+    background-position: center 26px;
+    background-size: 20px 20px;
+    line-height: 48px;
+}
+
+.reskinHeader .searchbar .searchbar-btn:hover {
+    background-color : #000 !important;
+    opacity  : 0.25;
+}
+
+.reskinHeader .searchbar .searchbar-btn:focus {
+    outline: #000 dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+}
+
+.gsc-input {
+    border: 0 !important;
+    color: #333;
+    background-color: #eee !important;
+    font-weight: 100;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-indent: 0px !important;
+}
+
+
+.reskinHeader #searchWrapper {
+    width: calc(100% - 50px) !important;
+    height: 100%;
+    float: left;
+}
+
+
+.gsc-input-box {
+    border: medium none !important;
+}
+
+.gsc-search-box,
+.gsc-search-box-tools {
+    margin: 0 !important;
+}
+
+#gsc-iw-id1 {
+    border: 1px solid transparent;
+}
+
+.gsib_a {
+    padding: 0;
+}
+
+.reskinHeader .searchIcon_wrapper {
+    position: relative !important;
+    float: right;
+    padding-right: 20px !important;
+    top: 25px !important;
+}
+
+.reskinHeader .searchbar.open .searchbar-btn {
+    text-indent: 0;
+    background-color: #056DAE;
+    background-image: none;
+}
+
+.reskinHeader .searchbar.open .searchbar-btn:focus,
+.reskinHeader .searchbar.open .searchbar-btn:hover {
+    background-color: #002A54;
+    background-image: none;
+}
+
+.reskinHeader .searchbar.open .searchbar-btn {
+    text-indent: 0;
+    background-color: #056DAE;
+    background-image: url('/GFC/branding/responsivebranding/img/white-close.png');
+    background-image: none;
+}
+
+.reskinHeader .searchbar.open .searchbar-btn:hover {
+    background-color: #002A54;
+    background-image: url('/GFC/branding/responsivebranding/img/white-close.png');
+    background-repeat: no-repeat;
+}
+
+.reskinHeader .searchbar.open .searchbar-btn:focus {
+    background-color: #002A54;
+    background-image: url('/GFC/branding/responsivebranding/img/white-close.png');
+    background-position: center 19px;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+}
+
+
+
+td.gsc-search-buttons {
+    display: none;
+}
+
+td.gsc-search-button,
+td.gsc-search-button:hover,
+td.gsc-search-button:focus {
+    background-image: none !important;
+    border: medium none !important;
+    display: none !important;
+    filter: none !important;
+}
+
+.gsc-branding, 
+.gsc-clear-button, 
+.gsib_b {
+    display: none!important;
+}
+
+.reskinHeader .goBtn {
+    background-color: #056DAE!important;
+    text-indent: 0;
+    position: absolute;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    color: #fff;
+    border: 0;
+    background-color: #fff;
+    line-height: 48px;
+    cursor:pointer;
+    font-size: 16px !important; 
+    font-family: Interstate_Bold, san-serif !important;
+}
+
+.reskinHeader .goBtn:hover {
+    background-color: #002a54!important;
+}
+
+.reskinHeader .searchbar-close-btn-shown {
+    opacity: 1;
+}
+
+#gsc-i-id1,
+#gsc-i-id2 {
+    background: transparent none repeat scroll 0 0 !important;
+}
+
+.gsc-branding,
+.gsc-clear-button,
+.gsib_b {
+    display: none !important;
+}
+
+#citilmHeader.reskinHeader #headerLogoLink {
+    display: inline-block !important;
+    left: 20px !important;
+    position: absolute;
+    top: 15px !important;
+    margin: auto;
+    height: 40px;
+    width: 70px;
+}
+
+#citilmHeader.reskinHeader #headerLogoLink.default img{
+    height: 40px;
+    width: 70px;
+    margin-top: -3px;
+
+}
+
+#citilmHeader.reskinHeader #headerLogoLink.business img{
+    height: 40px;
+}
+
+#citilmHeader.reskinHeader #nav_main #signOffTool,
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main #signOffTool
+{
+    background: none !important;
+    height: 100%;
+}
+
+.reskinHeader .signoff,
+.reskinHeader .signon{
+    font-family:Interstate_Bold,sans-serif !important;
+}
+
+#citilmHeader.reskinHeader #nav_main #signOffTool .signOffBtn,
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main #signOffTool .signOffBtn
+{
+    background: none !important;
+    color: #333 !important;
+    font-family:Interstate_Bold,sans-serif !important;
+    padding-right: 17px !important;
+}
+
+#citilmHeader.reskinHeader #nav_main #signOffTool .signOffBtn:hover
+{
+    background: none !important;
+    color: #056DAE !important;
+}
+
+#citilmHeader.reskinHeader #nav_main #signOffTool .signOffBtn:focus, 
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main #signOffTool .signOffBtn:focus {
+    color: #056DAE !important;
+}
+
+
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main #signOffTool .signOffBtn:hover { 
+    color: #056DAE !important; 
+}
+
+#citilmHeader.reskinHeader #nav_utility {
+    height: 26px !important;
+    padding: 0 !important;
+}
+
+#citilmHeader.reskinHeader #nav_utility li {
+    font-size: 12px !important;
+    margin-top: 7px !important;
+     padding: 0 20px 0 0 !important;
+    position: relative !important;
+    font-family:Interstate_Light, sans-serif !important;
+    text-transform: none !important; 
+    display: inline-block !important;
+    font-weight: 700 !important;
+}
+
+#citilmHeader.reskinHeader #nav_utility li a {
+   text-transform: none !important; 
+}
+
+#citilmHeader.reskinHeader #nav_utility li a:hover {
+    text-decoration: underline !important;
+}
+
+#citilmHeader.reskinHeader #nav_main {
+    background:#fff !important;
+    color: #333 !important;
+    height: 60px !important;
+    margin-top: 0px !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+    border-bottom: none;
+}
+
+#citilmHeader.reskinHeader #nav_main li a, 
+#citilmHeader.reskinHeader #ratesTool ul a, 
+#citilmHeader.reskinHeader .flyoutTool ul a {
+   font-size: 16px !important; 
+    line-height: 13px !important; 
+    font-weight: normal !important; 
+    padding-left: 20px !important; 
+    text-indent: 0px; 
+    padding-right: 20px !important; 
+    font-family: Interstate_Light, sans-serif !important; 
+    }
+
+
+
+#citilmHeader.reskinHeader #nav_main li span a{
+    font-family:Interstate_Bold,sans-serif !important;
+}
+
+#citilmHeader.reskinHeader #nav_main li a:focus,
+#citilmHeader.reskinHeader #nav_main:focus, 
+#citilmHeader.reskinHeader:focus {
+    outline:0 !important;
+    border: 0;
+}
+
+#citilmHeader.reskinHeader #nav_main li div ul li a {
+    line-height: 1.5 !important;
+    padding-top: 21px !important;
+    padding-bottom: 21px !important;
+
+}
+
+#citilmHeader.reskinHeader #nav_main li div ul li a:hover,
+#citilmHeader.reskinHeader #nav_main li div ul li a:focus {
+    color:#056DAE !important;
+}
+
+#citilmHeader.reskinHeader #nav_utility ul li a {
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+#citilmHeader.reskinHeader #nav_main a:hover, 
+#citilmHeader.reskinHeader #nav_main li a.active {
+    background: none !important;
+    /*display: inline-block !important;*/
+    text-decoration: none !important;
+    color: #056DAE !important;
+}
+
+#citilmHeader.reskinHeader #nav_main li.active a{
+    background: none !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+#citilmHeader.reskinHeader #nav_main li.active a:focus,
+#citilmHeader.reskinHeader #nav_main li.active a:hover{
+               border-bottom: 0px !important;
+}
+
+
+
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main a:hover, 
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main li.active a, 
+#citilmHeader.reskinHeader.citiGoldAccount #nav_main li a.active
+{
+    background: none !important;
+}
+
+.reskinHeader .cM-whiteLock-signOn{
+    display: none !important;
+}
+
+#citilmHeader.reskinHeader #nav_welcome,
+#citilmHeader.reskinHeader .CommonCardNav {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#citilmHeader.reskinHeader #nav_welcome ul li, 
+#citilmHeader.reskinHeader .CommonCardNav ul li{
+    padding-right: 10px !important;
+    font-family: Interstate_Light !important;
+}
+
+#citilmHeader.reskinHeader #cA-spf-WelcomeBarContainer
+{
+    margin-top: 5px;
+    padding : 0px !important;
+    width: 940px;
+    margin: auto;
+    background-color: transparent !important;
+    font-family: Interstate_Light !important;
+}
+#citilmHeader.reskinHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction{
+    background-color: transparent !important;
+}
+
+.reskinHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction span.cA-spf-welcomeBarLinkText{
+    vertical-align: baseline !important;
+}
+
+.reskinHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction span.cA-spf-messagesIcon, 
+.reskinHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction #ficoScoreLink span.cA-spf-ficoIcon,
+.reskinHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction span.cA-spf-profileSettingsIcon  {
+    height: 26px !important;
+    width : 24px !important;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_links .social_network a {
+    background-image: url("/GFC/branding/img/sprite_social_icons.png");
+    background-repeat: no-repeat;
+    margin-left:0px !important;
+    height: 12px !important;
+}
+
+#citilmFooter.reskinFooter #regionalPricing #region-display {
+  margin-bottom: 2px; 
+}
+
+#citilmFooter.reskinFooter span#brandingBottomDisclaimer a {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
+
+
+#citilmFooter.reskinFooter sup{
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    font-size: .6em !important;
+    top: -.5em !important;
+    color: #fff !important;
+}
+
+#citilmFooter.reskinFooter {
+    position:relative !important;
+    background-color: #333 !important;
+    clear: both !important;
+    font-size: 12px !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    top:0px !important;
+    padding:0px !important;
+    min-width: 984px;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+}
+
+#citilmFooter.reskinFooter div.links {
+    /*border-bottom: 1px solid #444444;
+    border-color: #444444;*/
+    border-style: solid !important;
+    line-height: 1.5 !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+    overflow: hidden !important;
+    padding-bottom: 5px !important;
+    padding-top: 1px !important;
+    position: relative !important;
+}
+
+#citilmFooter.reskinFooter div.fdic_content {
+    height: 30px !important; 
+    margin: 0px auto 20px auto!important; 
+    position: relative !important; 
+    vertical-align: middle !important; 
+    /*max-width: 1440px !important;*/ 
+    padding-right: 0px; 
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_links{
+    position: relative !important;
+    padding: 0 20px 15px 20px !important;
+    overflow:hidden !important;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_links a.logo {
+    padding: 20px 0 12px 0; 
+    height: auto; 
+    margin-top: 0px; 
+    display: inline-block; 
+    font-family: Arial !important;
+}
+
+
+#citilmFooter.reskinFooter .footer_wrapper .social_network{
+    position: relative !important;
+    display: inline-block !important;
+    float: right !important;
+    width: auto !important;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+#citilmFooter.reskinFooter .social_network a:focus { 
+    outline:1px solid #fff !important; 
+    outline: -webkit-focus-ring-color auto 1px #fff !important; 
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_network #FacebookIconLink {
+    background-position: 0px -34px;
+    margin-top: 8px;
+    margin-right: 11px !important;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_network #TwitterIconLink {
+    background-position: 0px 0;
+    margin-left: 0px !important;
+    margin-top: -5px;
+    margin-right: 16px !important;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_network #YoutubeIconLink {
+    background-position: 8px -17px;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+}
+
+#citilmFooter.reskinFooter .fdic_content .EqualHousing {
+    float:right;
+}
+
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links ul li:last-child{ 
+     padding-right: 0px !important; 
+} 
+
+
+
+.reskinFooter .footer_links{
+    position: relative !important;
+    padding: 0px 10px 40px 10px!important;
+    height:100% !important;
+    float: left;
+    margin: 0 auto !important;
+}
+
+.reskinFooter .footer_link_contents{
+    position: relative;
+    display:inline;
+    width: 16.6666%;
+    padding-left:10px !important;
+    padding-right:10px !important;
+    float:left;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.reskinFooter .footer_link_contents fieldset{
+    width: auto;
+    -webkit-margin-start: 0px;
+}
+
+.reskinFooter .footer_subnav{
+    position: relative; 
+    width:100% !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    padding-right: 0px !important;
+    
+    display: inline-block !important;
+   
+}
+
+#citilmFooter.reskinFooter a, #citilmFooter.reskinFooter span {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+#citilmFooter.reskinFooter a.logo
+{
+    padding: 20px 0;
+    height: 25px;
+    display: inline-block;
+}
+
+.reskinFooter a#cards-citi-logo {
+    margin-top: none !important;
+}
+
+
+#citilmFooter.reskinFooter a:hover, 
+#citilmFooter.reskinFooter a:focus{
+    color: #fff !important;
+    font-family: Interstate_Light, sans-serif !important;
+    outline: none !important;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_links a.logo:focus{
+    outline: 1px solid !important;
+}
+
+
+.reskinFooter .footer_subnav a, 
+.reskinFooter .footer_subnav span{
+    font-family: Interstate_Light, sans-serif !important;
+    font-size: 16px !important;
+}
+
+.reskinFooter .footer_options_subnav a, 
+.reskinFooter .footer_options_subnav span{
+    font-family: Interstate_Light,sans-serif!important;
+    font-size: 12px !important;
+}
+
+.reskinFooter .footer_bold_text a, 
+.reskinFooter .footer_bold_text span{
+    font-family:Interstate_Bold,sans-serif !important;
+}
+
+.reskinFooter #footer_zipcode{
+    height: 50px;
+    border: 0px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-top: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #EEE;
+    font-family: Interstate_Light !important;
+}
+
+.reskinFooter .footer_subnav .footer_zipcode_label{
+    color:#fff; 
+    font-size:12px !important; 
+    font-family:Interstate_Light,sans-serif !important; 
+}
+
+.reskinFooter .footer_subnav .hiddenSkipNav {
+    position: relative; 
+}
+
+
+.reskinFooter #footer_zipcode:focus{
+    outline: none;
+    border: 1px solid #056dae;
+    box-shadow: none;
+} 
+
+.reskinFooter #locatorForm input#footer_zipcode{
+    margin-bottom: 0 !important;
+}
+
+.reskinFooter #locatorForm input#footer_zipcode::-webkit-input-placeholder{
+    opacity:0.8;
+    color:#333;
+}
+.reskinFooter #locatorForm input#footer_zipcode::-moz-placeholder {
+    opacity:0.8;
+    color:#333;
+}
+
+
+
+.reskinFooter #footer_go{
+    background-color: #056DAE;
+    border: 0px;
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Interstate_Bold, sans-serif !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reskinFooter #footer_go:hover {
+    background-color: #002A54;
+}
+
+.reskinFooter #footer_go:focus {
+    background-color: #002A54;
+    border: 1px solid #ccc !important;
+    outline: none;
+}
+
+
+
+.reskinFooter .footer_options{
+    position: relative;
+    border-top: 1px solid hsla(0,0%,100%,.25)!important;
+    border-bottom: 1px solid hsla(0,0%,100%,.25)!important;
+    margin: 0px auto 45px auto !important;
+    padding: 20px 10px 20px 0px !important;
+    height:100%;
+    width: 100%;
+    float: left;
+}
+
+.reskinFooter .footer_options_wrapper{
+    position: relative; 
+    padding-right:20px !important;
+    padding-left:20px !important;
+}
+
+
+#citilmFooter.reskinFooter div.copyright{
+    margin: 0;
+    width: auto !important;
+    padding:10px 0px 0px 0px !important;  
+}
+
+.reskinFooter #cbol-footer-copyright{ 
+    color : #FFF; 
+    font-family: Interstate_Bold !important; 
+    display : inline; 
+} 
+
+.reskinFooter .footer_options_subnav {
+    position: relative; 
+    width:100% !important;
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+    padding-right: 20px !important;
+
+}
+
+#citilmFooter.reskinFooter div.footerContent {
+    clear: both !important; 
+    font-size: 12px !important; 
+    position: relative !important; 
+    /*max-width: 1440px;*/ 
+    margin: 0px 0px 40px 0px; 
+    padding: 0px 20px 0px 20px; 
+    border-bottom: none; 
+    box-sizing: border-box;  
+}
+
+.reskinFooter .cM-contentSpriteBase.cM-FDIC {
+    margin: 0 0 0 10px !important;
+    padding: 0 !important;
+    background-image: none;
+    vertical-align: top !important;
+}
+
+.reskinFooter .EqualHousing > img {
+    margin-bottom: 0px !important;
+    display:inline;
+}
+
+#citilmFooter.reskinFooter div.footerContent p,
+#citilmFooter.reskinFooter .ajax-dialog-container {
+    color: #fff !important;
+    margin-top: 20px !important;
+    line-height: 18px !important;
+    font-family:Interstate_Light,sans-serif !important;
+    font-size: 12px !important;
+}
+
+.reskinFooter .fdic_miranda{
+    border: 1px solid #fff !important;
+    width: auto;
+    padding: 20px 0 !important;
+    margin-left: 0;
+    text-align: center;
+}
+
+.reskinHeader #nav_marketing .submenu #citigold sup.bsup {
+    vertical-align: super;
+    line-height: 0;
+    font-size: smaller;
+    font-family: Interstate_Light, sans-serif !important;
+    top:0;
+}
+
+/*Rohan Changes*/
+
+#citilmFooter.reskinFooter.plain_footer #headerLogoLink.TY {
+   top: 13px !important;
+}
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links ul li.footer_options_subnav a{
+    font-family: Interstate_Bold !important;
+    font-size: 16px !important; 
+    line-height: 24px !important;
+}
+
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links ul{
+    float: right !important;
+    padding-top: 20px;
+}
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links ul li.footer_options_subnav{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links .footer_options{
+    border-top: 1px solid rgba(255,255,255,0.25)!important;
+    border-bottom: none !important;
+    top: 20px; 
+}
+
+#citilmFooter.reskinFooter.plain_footer div.copyright {
+    color: #fff !important;
+    font-family: Interstate_Bold !important;
+    font-size: 12px !important;
+    line-height: 18px !important; 
+    padding: 15px 20px 20px 20px !important;   
+    width: 100% !important;
+    box-sizing: border-box; 
+}
+
+#citilmFooter.reskinFooter span#brandingBottomDisclaimer a,
+#citilmFooter.reskinFooter.plain_footer div.copyright span#cbol-footer-server { 
+    font-family: Interstate_Light !important; 
+} 
+
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links .plain_links{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#citilmFooter.reskinFooter.plain_footer .footer_wrapper .social_links ul li:last-child{ 
+     padding-right: 0px !important; 
+} 
+
+
+.reskinFooter.plain_footer .copyright #cbol-footer-server{
+    float: right;
+    line-height: 18px !important; 
+}
+
+.reskinFooter #cbol-footer-server{ 
+    color : #FFF; 
+    font-family: Interstate_Light !important; 
+}
+
+/**/
+
+/* Search Styles */
+
+.reskinHeader .menuOverlay {
+    position:absolute;
+}
+
+#gsc-i-id1,
+#gsc-i-id2 {
+    background: transparent none repeat scroll 0 0!important;
+}
+
+#gsc-i-id1::-webkit-input-placeholder { /* Chrome */
+
+  color: #333;
+
+}
+
+#gsc-i-id1::-moz-placeholder { /* Firefox */
+
+  color: #333;
+
+  opacity:1;
+
+} 
+
+.gsc-branding,
+.gsc-clear-button,
+.gsib_b {
+    display: none!important;
+}
+
+td.gsc-search-buttons {
+    display: none;
+}
+
+td.gsc-search-button,
+td.gsc-search-button:focus,
+td.gsc-search-button:hover {
+    background-image: none!important;
+    border: medium none!important;
+    display: none!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+}
+
+.gsc-input {
+    border: 0!important;
+    color: #333;
+    background-color: #eee!important;
+    font-weight: 100;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+}
+
+.gsc-input-box {
+    border: medium none!important;
+    width:100% !important;
+    background:none !important;
+}
+
+.gsc-search-box,
+.gsc-search-box-tools {
+    margin: 0!important;
+}
+
+ #gsc-iw-id1 {
+    border: 1px solid transparent;
+}
+
+.gsib_a {
+    padding: 0;
+}
+
+.searchbar.open #gs_tti50>* {
+    background-color: #eee !important;
+    padding-left: 20px!important;
+    padding-right: 45px!important;
+}
+
+#___gcse_0,
+#___gcse_0 * {
+    height: 100%!important;
+    padding: 0!important;
+    margin: 0!important;
+    border: 0!important;
+}
+
+#gs_tti50>* {
+    background-color: #eee!important;
+}
+
+#gs_tti50>:focus {
+    border: 2px solid #056dae !important; 
+    height: 46px !important; 
+    margin-left: -2px !important; 
+    outline: 0 !important;
+}
+
+@-moz-document url-prefix() { 
+    #gs_tti50>:focus { 
+        height: 46px !important; 
+    } 
+}
+
+.reskinHeader .mobile_atm-locator {
+    z-index: 1;
+}
+
+#gsc-i-id1 {
+    background-image: none !important;
+    background-repeat: no-repeat!important;
+    background-size: 16px 16px!important;
+    margin: 0!important;
+    background-color: #fff!important;
+    background-position: right 20px center!important;
+    height: 50px!important;
+    outline: 1px!important;
+    box-shadow: none!important;
+    display: block!important;
+    font-size: 14px!important;
+    box-sizing: content-box;
+}
+
+#gsc-i-id1, .reskinHeader .searchWrapper {
+    width: 200px !important;
+}
+
+#gs_tti50>* {
+    text-indent: 0;
+}
+
+#gs_tti50>* {
+ background-color: #eee!important;
+}
+
+.reskinHeader #searchBoxMega{
+    margin-top:5px !important;
+    display:none; 
+    width:0px;
+    outline: 1px solid transparent;
+}
+
+.gstl_50{
+    top:152px !important;
+}
+
+body > table.gstl_50{
+    width:auto !important;
+    margin-left:0px !important;
+}
+
+.gssb_a, .gssb_a td {
+    font-size: 16px !important;
+    max-width: 345px !important;
+}
+
+.reskinHeader .searchbar {
+    position: relative;
+    z-index: 15;
+    float: left;
+    display:block;
+    width: 300px !important;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.reskinHeader .searchbar-close-btn {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top: 2px;
+    left: 214px;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: url(/GFC/branding/responsivebranding/img/desktop-search-close-btn.png) center 19px no-repeat;
+    background-size: 10px 10px;
+}
+
+.reskinHeader .searchbar-close-btn:hover {
+    background: url(/GFC/branding/responsivebranding/img/desktop-search-close-btn-hover.png) no-repeat;
+    background-position: center 16px;
+    background-size: 15px 15px;
+}
+
+#citilmFooter.reskinFooter .footer_wrapper .social_links ul li.footer_options_subnav a:hover {
+    font-family: Interstate_Bold !important;
+    font-size: 16px !important;
+}
+
+.reskinHeader .blue_banner_header .maxWidth {
+    position: relative;
+}
+
+#citilmHeader.reskinHeader.citiGoldAccount #headerLogoLink {
+    display: inline-block !important;
+    left: 20px !important;
+    position: absolute;
+    top: 15px !important;
+    margin: auto;
+    height: 40px;
+    width: 141px;
+}
+
+#citilmHeader.reskinHeader.citiGoldAccount #headerLogoLink > img {
+    height: 40px;
+    width: 141px;
+}
+
+
+/*.hidden{ 
+    display:none !important; 
+}*/
+
+.reskinFooter div#region-display td#rpTableLabel { 
+    color: #FFF !important; 
+    font-size: 12px; 
+    font-family: Interstate_Light, sans-serif; 
+    line-height: 24px; /*added to fix alignment for "information for" in footer*/
+} 
+
+
+.reskinFooter div#region-display div#region_value { 
+    color: #FFF; 
+    font-family: Interstate_Bold, sans-serif; 
+    font-size: 12px; 
+    text-decoration: none; 
+    border-bottom: none; 
+    line-height: 24px; /*added to fix alignment for "information for" in footer*/
+}
+
+.reskinFooter .footer_options_subnav span#RegionalPricingTooltip {
+    font-family: Interstate_Bold,sans-serif!important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+}
+
+
+.reskinFooter div#region_value span#RegionalPricingTooltip:after{
+    content: url(/CBOL/common/ddl/1.1.0/images/icons/svgs/arrows/arrow-btn-next-white-sm-bold.svg);
+    padding-left: 5px;
+    position: relative;
+    top: 2px; /*to fix chevron issue in Firefox*/
+}
+
+.reskinFooter #regionalPricing, .reskinFooter #RegionalPricingTooltip{ 
+    vertical-align: middle !important; 
+} 
+
+.reskinFooter #RegionalPricingTooltip:hover, .reskinFooter #RegionalPricingErrorTooltip:hover {
+    display: inline-block;
+    color: #FFF !important;
+    text-decoration: underline  !important;
+}
+
+.reskinFooter div#region-display div#region_value:hover{ 
+    color: #FFF;
+    border-bottom: none;
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+
+table.gstl_50.gssb_c {
+    max-width:345px !important;
+}
+
+
+/*Cobraded change starts*/
+
+#citilmHeader.reskinHeader.BBEXP .citiBrandingNav {
+    border-bottom:0px !important;
+}
+
+#citilmHeader.reskinHeader .divider{
+    position: relative;
+    background-color: #000000;
+    width: 1px;
+    display: inline-block;
+    height: 40px;
+    left: 109px;
+    top: 15px;
+    opacity: 0.25;
+}
+
+#citilmHeader.reskinHeader .AAdvantageLogo{
+    position: relative;
+    width: 193px;
+    height: 40px;
+    display: inline-block;
+    background: url(/GFC/branding/img/logo_AA.png) no-repeat;
+    background-size: 193px 40px;
+    top: 15px;
+    left: 130px;
+}
+
+#citilmHeader.reskinHeader .CostcoLogo{
+    position: relative;
+    width: 133px;
+    height: 40px;
+    display: inline-block;
+    background: url(/GFC/branding/img/logo_Costco.png) no-repeat;
+    background-size: 133px 40px;
+    top: 15px;
+    left: 130px;
+}
+
+#citilmHeader.reskinHeader .ExpediaLogo{
+    position: absolute;
+    width: 218px;
+    height: 28px;
+    display: inline-block;
+    background: url(/GFC/branding/img/logo_Expedia.png) no-repeat;
+    background-size: 218px 28px;
+    top: 21px;
+    left: 130px;
+}
+
+#citilmHeader.reskinHeader .HiltonHonorsLogo{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    display: inline-block;
+    background: url(/GFC/branding/img/logo_HH.png) no-repeat;
+    background-size: 170px 40px;
+    top: 15px;
+    left: 130px;
+}
+
+#citilmHeader.reskinHeader .AttAccessCardLogo{
+    position: relative;
+    width: 254px;
+    height: 40px;
+    display: inline-block;
+    background: url(/GFC/branding/img/logo_ATTAccess.png) no-repeat;
+    background-size: 254px 40px;
+    top: 15px;
+    left: 130px;
+}
+
+
+#citilmHeader.reskinHeader.BBAA .blue_banner_header, #citilmHeader.reskinHeader.BBATTACCESS .blue_banner_header,#citilmHeader.reskinHeader.BBCOSTCO .blue_banner_header,
+#citilmHeader.reskinHeader.BBHH .blue_banner_header,#citilmHeader.reskinHeader.BBEXP .blue_banner_header{
+    background: #FFF;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+}
+
+#citilmHeader.reskinHeader.BB .blue_banner_header{
+    background: linear-gradient(180deg, #00bdf2, #00b3f0 18%, #0066b3 77%, #004985);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+}
+
+#citilmHeader.reskinHeader.BBATTLEGACY .blue_banner_header, #citilmHeader.reskinHeader.ATT .blue_banner_header{
+    background: linear-gradient(180deg,#FCB314,#FCB314  0%,#FF7200   100%,#FF7200);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+}
+
+#citilmHeader.reskinHeader.BBAA #nav_main, #citilmHeader.reskinHeader.BBEXP #nav_main {
+    border-top: 0px !important;
+}
+
+#citilmHeader.reskinHeader.BBAA #nav_main li a:hover, #citilmHeader.reskinHeader.BBEXP #nav_main li a:hover, #citilmHeader.reskinHeader.BBATTACCESS #nav_main li a:hover ,#citilmHeader.reskinHeader.ATT #nav_main li a:hover {
+    background-color: transparent !important;
+}
+
+#citilmHeader.reskinHeader.BBAA #nav_main li a, #citilmHeader.reskinHeader.BBEXP #nav_main li a {
+     color: #333 !important; 
+}
+
+#citilmHeader.reskinHeader .search_container_cobrands .searchIcon_wrapper img, #citilmHeader.reskinHeader .search_container .searchIcon_wrapper img{
+    width:20px; 
+    height:20px;
+}
+
+.reskinHeader .search_active_cobrands{
+     /* height: 65px; */ 
+    box-sizing: border-box; 
+    border-bottom: 5px solid #056DAE !important; 
+}
+/*Cobraded change ends*/
+
+.cS-bodyArea .cS-bodyAreaFull.cS-sectionHeader{ 
+    margin-top : 28px;    
+}
+
+#citilmFooter.reskinFooter .footer_link_contents ul, #citilmFooter.reskinFooter .footer_options ul{
+    margin:0px;
+}
+
+#citilmFooter.reskinFooter .footer_options_subnav b {
+    color: #FFFFFF;
+    font-family:Interstate_Light,san-serif !important;
+    line-height: 18px;
+}
+
+#citilmFooter.reskinFooter .server-fdic-wrapper {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#citilmFooter.reskinFooter.ATT .content {
+    padding: 0px;
+    top: 0;
+}
+
+#citilmFooter.reskinFooter div.footerContent span.bottomDisclaimerText p {
+    margin-left: 0px;
+    width: 100%;
+}
+
+#feedbackLink:after{ 
+    content: " "; 
+    padding-left: 15px; 
+    margin-left: 5px; 
+    background: url(/GFC/branding/olab/images/oo_icon_retina.gif) no-repeat; 
+    background-size: 83% 80%; 
+    background-position-y: 2px; 
+} 
+a#feedbackLink:visited, a#feedbackLink:active{ 
+                text-decoration: none; 
+        }
+
+.reskinFooter .footer_wrapper .footer_options{ 
+        padding-right: 0px !important;
+} 
+
+.reskinFooter .footer_wrapper .footer_options ul li#footerId{ 
+            float: right; 
+}
+
+
+#feedbackLink{ 
+        font-family: Interstate_Light, sans-serif !important; 
+        font-size: 12px;
+}
+#citilmHeader.reskinHeader .overlayWrapper{
+    display: none;
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px !important;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.44) !important;
+}
+
+#citilmFooter.reskinFooter .dialog-trigger{
+    cursor: pointer;
+}
+
+#citilmHeader.reskinHeader #speedbump-dialog-wrapper{
+    position:absolute;
+    width:100%;
+}
+
+#citilmHeader.reskinHeader #speedbump-dialog-wrapper{
+    display:none;
+}
+
+#citilmHeader.reskinHeader .dialogContentWrapper{
+    top: 50px;
+    padding-left:40px !important;
+    padding-right:40px !important;
+}
+
+#citilmHeader.reskinHeader .speedbump-dialog{
+    position: relative;
+    width: 690px;
+    background-color: #fff !important;
+    z-index: 1002;
+    border: 1px solid #666 !important;
+    color: #000;
+    overflow: hidden;
+    outline: 0px;
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    margin: 0 auto !important;
+}
+
+#citilmHeader.reskinHeader .closeBtnWrapper{
+    width:100%;
+    height:50px;
+    background:#fff;
+}
+
+#citilmHeader.reskinHeader .dialog-closeBtn{
+    position:relative;
+    width: 10px;
+    height: 10px;
+    float: right;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    top: 20px;
+    right: 20px;
+    background: url(/GFC/branding/responsivebranding/img/desktop-search-close-btn.png) center 0px no-repeat;
+    background-size: 10px 10px;
+
+}
+#citilmHeader.reskinHeader .dialog-closeBtn:hover{
+    background: url(/GFC/branding/responsivebranding/img/desktop-search-close-btn-hover.png) center 0px no-repeat;
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    right: 17.5px;
+    top: 17.5px;
+}
+
+#citilmHeader.reskinHeader .dialogHeader{
+    height:50px;
+    color:#333;
+    line-height:1.19;
+    font-size:42px !important;
+    font-family: Interstate_Light, sans-serif !important; 
+    font-weight:300;
+    font-stretch: normal;
+    font-style:normal;
+}
+
+#citilmHeader.reskinHeader .dialogContent{
+    padding-top:20px !important;
+}
+
+#citilmHeader.reskinHeader .dialogContent small{
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #333333;
+    font-family: Interstate_Light, sans-serif !important;
+    font-weight:300;
+}
+
+#citilmHeader.reskinHeader .dialogContent p:nth-child(2){
+    margin-top:10px;
+}
+
+
+#citilmHeader.reskinHeader .dialogContinueBtn{
+    width: 218px;
+    height: 50px;
+    border: 0px !important;
+    border-radius: 6px;
+    padding:18px !important;
+    box-sizing: border-box;
+    background-color: #056dae !important;
+    text-align: center;
+    color: #fff;
+    right: 40px;
+    font-size: 16px !important;
+    font-weight: bold;
+    cursor: pointer;
+    float:right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Interstate_Bold, sans-serif !important; 
+}
+
+#citilmHeader.reskinHeader .dialogContinueBtn:hover{
+    background-color: #002A54 !important;
+}
+
+.reskinFooter span#cbol-footer-mlc { 
+    color: #333 !important;
+    font-size: 0px;
+    font-family: Interstate_Light !important; 
+}
+
+iframe[name="_rlcdn"] {
+    display: none;
+}
+
+.reskinHeader span#sign_onOverlayovly-trigger{ 
+    cursor:Pointer !important; 
+}

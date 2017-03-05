@@ -1,0 +1,23 @@
+/* JFP Widget CSS inclusion */
+@import url('/JFP/css/common/JPPWidget.css');
+
+/* Global FEDS CSS inclusion */
+@import url('/CBOL/common/css/citiBase.css');
+@import url('/CBOL/common/css/citiReset.css');
+@import url('/CBOL/common/css/citiMain.css');
+
+/* Inclusion for Global Application Specific CSS which could be needed across any sub app */
+@import url('/CBOL/common/css/QuickTasks_v1.5.css');
+@import url('/CBOL/common/css/OTP_v1.5.css');
+@import url('/CBOL/common/css/SelectWidget_1.5.css');
+@import url('/CBOL/common/css/PnT_Overlay.css');
+@import url('/CBOL/common/css/PrintRecord.css');
+@import url('/CBOL/common/css/Overlay.css');
+@import url('/CBOL/common/css/SearchBox.css');
+@import url('/CBOL/common/css/DEOB.css');
+@import url('/CBOL/common/css/CommonQuestions_v1.5.css');
+@import url('/CBOL/common/css/BookEPP.css');
+@import url('/CBOL/common/css/headerPrintLinks.css');
+
+/* Global Layout CSS */
+@import url('/CBOL/portal/layout/css/tileLayout.css');

@@ -1,0 +1,154 @@
+body {
+	font-family: arial, sans-serif;
+}
+.ui-dialog.jfpw-overlay a.ui-dialog-titlebar-close {
+	top: 24%;
+	width: 28px;
+}
+.ui-dialog.jfpw-overlay .ui-widget-header span.ui-icon {
+	background-image : url("/JRS/images/common/image/Close_default.png");
+	background-repeat: no-repeat;
+	background-position: 0;
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	float: left;
+}
+.ui-dialog.jfpw-overlay .ui-widget-header span.ui-icon:hover{
+	background-image : url("/JRS/images/common/image/Close_hover.png");
+}
+span.checkmark {
+	background-image: url("/JRS/images/common/image/checkmark.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 18px;
+	display: inline-block;
+	float: left;
+	margin-top: 1px;
+	padding-right: 9px;
+	position: relative
+}
+span.dashboard-image {
+	background-image: url("/JRS/images/common/image/RDS_SPF_Dashboard.png");
+	background-repeat: no-repeat;
+	height: 338px;
+	width: 390px;
+	float: left;
+}
+div.checkmark-text {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	line-height: 18px;
+}
+.ui-widget-content.jfpw-overlay {
+	border: 1px solid #ccc!important;
+}
+#overlay-RDS .cS-overlayStandardContainer {
+	width: 100%;
+}
+#overlay-RDS.ui-dialog-content.ui-widget-content {
+	padding: 0!important;
+}
+.ui-dialog.jfpw-overlay .ui-dialog-titlebar.ui-widget-header{
+	background-color: #EEEEEE !important;
+	border: 0 !important;
+}
+
+.ui-dialog.jfpw-overlay .ui-dialog-content {
+
+}
+#overlay-RDS .ui-dialog-content .ui-widget-content {
+	padding: 0;
+}
+#overlay-RDS #overlay-header {
+        font-size: 22px; 
+	font-weight: normal;
+	padding: 0 0px 20px 40px;
+       float:none;
+      background-color:#eeeeee;
+
+}
+#overlay-RDS li {
+	display: block;
+	padding-bottom: 18px;
+	width: 330px;
+	padding-right: 20px;
+}
+#overlay-RDS li#continueButton {
+	padding-left: 30px;
+	padding-top: 10px;
+	width: 300px;
+}
+#overlay-content-wrapper{
+	background-color: white;
+	height: 479px;
+	color: #616161;
+}
+
+#left-content-wrapper {
+	float: left;
+	width: 89.74%;
+	height: 100%;
+	padding-top: 15px;
+	padding-left: 10.26%;
+}
+#right-content-wrapper {
+	width: 92.307%;
+	height: inherit;
+	float: right;
+	padding-right: 7.693%;
+	padding-top: 30px;
+}
+#left-content,
+#right-content {
+	display: inline-block;
+	float: left;
+	height: 90%;
+	width: 50%;
+}
+div#RDSIntroText {
+	font-family: arial, sans-serif;
+	line-height: 24px;
+	font-size: 17px;
+	padding-bottom: 12px;
+	padding-right: 20px;
+	width: 330px;
+}
+li#bottomText {
+	padding-left: 30px;
+	padding-bottom: 18px;
+	font-size: 14px;
+	line-height: 18px;
+	width: 300px;
+}
+div.disclaimer-text {
+	font-style: italic;
+	font-size: 12px;
+	line-height: 18px;
+	float: right;
+	width: 288px;
+	padding-top: 11px;
+}
+.blue-button a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #0076C0;
+	padding: 10px 20px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.blue-button a:hover {
+	background-color: #ffffff;
+	color: #0076c0;
+	border: 1px solid #0076c0;
+	text-decoration: none;
+}
+
+#overlay-RDS-close {
+margin-top:-10px;
+}
+
+#right-content-wrapper .disclaimer-text {
+margin-right: -12px;
+}

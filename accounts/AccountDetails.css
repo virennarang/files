@@ -1,0 +1,3389 @@
+/* Main container for overall Account Details */
+#accountDetails {
+                color: #333;
+                float: left;
+                padding-top: 25px;
+                width: 925px;
+}
+#accountDetails a:hover {
+                text-decoration: underline;
+}
+/* Container for transaction tables */
+#accountDetails #transactionContainer > #transactionPanel {
+                float: left;
+                width: 100%;
+}
+/* Main account panel styling */
+#accountDetails > #accountInfoPanel {
+                float: left;
+                line-height: 19px;
+                width: 700px;
+}
+/* Styling for card art container */
+#accountDetails > #accountInfoPanel > #cardArtContainer {
+                float: left;
+                height: 50px;
+                width: 80px;
+                padding-right: 10px;
+}
+/* Styling for account info inner container */
+#accountDetails > #accountInfoPanel > #accountInfo {
+                float: right;
+                margin-right: 40px;
+                width: 569px;
+}
+
+#accountDetails > #accountInfoPanel > #accountInfo.cA-noBorderBottom {
+                border-bottom: medium none !important;
+}
+
+/* Styling for alerts */
+#accountDetails > #accountInfoPanel #alertContainer {
+                float: left;
+                margin-top: 10px;
+                padding-bottom: 10px;
+                width: 100%;
+}
+/* Fix icon positioning */
+#accountDetails > #accountInfoPanel #alertContainer .cM-spriteBase.cM-leftArrowIcon {
+                margin-left: 5px;
+                top: 7px;
+}
+
+#accountDetails > #accountInfoPanel #alertContainer > .cM-spriteBase {
+                margin-right: 8px;
+}
+#accountDetails > #accountInfoPanel #alertContainer > * {
+                float: left;
+}
+/* Styling for account info label value containers */
+.cT-dateWrap {
+                display: inline-block;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer {
+                float: left;
+                min-height: 1px;
+                width: 262px;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #rightLabelValueContainer {
+                float: right;
+                min-height: 1px;
+                width: 262px;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem {
+                float: left;
+                padding-right: 5px;
+                width: 100%;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem .cT-labelItem {
+                float: left;
+                text-align: left;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem .cT-valueItem,#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem .cT-invValueItem  {
+                color: black;
+                float: left;
+                text-align: left;
+                padding-left: 10px;
+                text-align: right;
+}
+#accountDetails > #accountInfoPanel > #accountInfo .cT-labelValItem .cT-valueItem > span, #accountDetails > #accountInfoPanel > #accountInfo .cT-labelValItem .cT-invValueItem > span{
+                display: block;
+                float: right;
+                white-space: normal;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #rightLabelValueContainer  .cT-labelValItem {
+                float: right;
+                width: 262px;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #rightLabelValueContainer .cT-labelValItem .cT-labelItem {
+                float: left;
+                text-align: left;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #rightLabelValueContainer .cT-labelValItem .cT-valueItem ,#accountDetails > #accountInfoPanel > #accountInfo > #rightLabelValueContainer .cT-labelValItem .cT-invValueItem {
+                color: black;
+                float: left;
+                padding-left: 10px;
+                text-align: right;
+}
+/* Second currency value container needs to clear */
+#accountDetails > #accountInfoPanel > #accountInfo .cT-secondCurrency {
+                clear: right;
+                float: right;
+}
+/* Styling for button and warning container */
+#accountDetails > #accountInfoPanel > #accountInfo #warningButtonContainer {
+                float: left;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                width: 100%;
+}
+/* Positioning for blue button */
+#accountDetails > #accountInfoPanel > #accountInfo #warningButtonContainer .cT-blueButton {
+                float: right;
+                padding-left: 10px;
+}
+
+/* Positioning for credit line link */
+#accountDetails>#accountInfoPanel>#accountInfo #warningButtonContainer .cT-creditLineLink {
+                float: right;
+                padding-left: 10px;
+}
+
+#accountInfo #warningButtonContainer .cT-creditLineLink a:hover{
+                text-decoration: underline;
+}
+
+#accountInfo #warningButtonContainer .cT-blueButton a:hover {
+                text-decoration: none;
+}
+/* Styling for rewards container */
+#accountDetails > #accountInfoPanel #rewardsContainer {
+                border-top: 1px solid #ccc;
+                float: right;
+                margin-right: 40px;
+                padding-top: 10px;
+                width: 570px;
+}
+/* Rewards label styling */
+#accountDetails > #accountInfoPanel #rewardsContainer .cA-rewardsHeaderSpacer {
+                float: left;
+                height: 25px;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-rewardsHeader {
+                float: left;
+                font-weight: bold;
+                margin-right: 10px;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cA-rewardsLabelValues{
+                clear: left;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-rewardsLabel {
+                display: inline;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-rewardsValue {
+                display: inline;
+                margin-left: 10px;
+                margin-right: 10px;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-rewardsValue > div
+{
+                display:inline-block;
+                float:left;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-rewardsValue > div > span
+{
+margin-right: 10px;
+}
+#accountDetails > #accountInfoPanel #rewardsContainer .cT-blueButton {
+                display: inline-block;
+                white-space: nowrap;
+}
+/*  container styling */
+#accountDetails > #accountInfoPanel > #account {
+                float: left;
+}
+/*  styling */
+#accountDetails > #accountInfoPanel > #account > select {
+                width: 570px;
+}
+/* Styling for right sub-app container */
+#accountDetails #rightSubApp {
+                float: left;
+                width: 225px;
+}
+/* Container for pending transaction table */
+#accountDetails #transactionContainer > #transactionPanel > #pendingTansactionTable {
+                float: left;
+                margin-top: 20px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #postedTansactionTable {
+                border-bottom: 1px solid #ccc;
+                float: left;
+                width: 100%;
+                padding-bottom: 30px;
+}
+/* View More button Removing underlin onhover */
+#accountDetails .viewXMoreButtons a:hover,
+#accountDetails .viewMoreButtons a:hover {
+    text-decoration: none;
+}
+
+/* Styles for generic transaction tables */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable {
+                border-bottom: 1px solid #cccccc;
+                float: left;
+                font-size: 12px;
+                width: 925px;
+}
+
+/* No Border for Investment Accounts */
+#accountDetails #transactionContainer #postedTansactionTable.noBorderBottom{
+	border-bottom: medium none;
+}
+/*Issue 1065*/
+thead th[id^=header4].cT-headerColumn4.cT-numberColumn.cT-sortableHeader {
+                padding-right: 28px !important;
+                /*text-align: left !important;*/
+}
+/* Styles for header columns */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > thead > tr > th {
+                border-bottom: 1px solid #ccc;
+                cursor: pointer;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > thead > tr > th.sorter-false {
+                cursor: default;
+}
+/* Change cursor for row for expand/collapse */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr.cT-firstRow {
+                cursor: pointer;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody.cA-normalCursor > tr {
+                cursor: auto !important;
+}
+#accountDetails #transactionContainer #transactionPanel table > tbody > tr > td,
+#accountDetails #transactionContainer #transactionPanel table > thead > tr > th {
+                padding: 8px 10px;
+
+}
+#invAccountsPanel .cT-tableBase.tablesorter thead tr.tablesorter-headerRow th.cT-numberColumn .tablesorter-header-inner,
+#invAccountsPanel .cT-tableBase.tablesorter thead tr.tablesorter-headerRow th.cT-numberColumn .tablesorter-header-inner>.cT-noWrap.cM-extend {
+                display: inline;
+}
+#invAccountsPanel .cT-tableBase.tablesorter thead tr.tablesorter-headerRow th {
+                padding-right: 20px !important;
+                padding-left: 10px !important;
+}
+#invAccountsPanel .cT-tableBase>tbody>tr>td {
+                padding: 5px 10px;
+}
+
+/* Create special padding for certain columns */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > thead > tr > th.cT-headerColumn0,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn0 {
+                padding-left: 0px;
+                padding-right: 0px;
+                width: 25px;
+}
+#accountDetails #transactionContainer #transactionPanel table > thead > tr > th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-right: 22px !important;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td {
+                vertical-align: top;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > thead > tr > th.cT-headerColumn1 {
+                width: 70px;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > thead > tr > th.cT-headerColumn2 {
+                width: 359px;
+}
+
+/* To override the above property for INV accounts as it is affecting setting widths*/
+#accountDetails #transactionContainer > #transactionPanel #invAccountsPanel table.cT-transactionTable > thead > tr > th.cT-headerColumn2 {
+                width: 80px;
+}
+
+/* Set alignment of text */
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > thead > tr > th.cT-headerColumn1
+{
+                text-align: left !important;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > tbody > tr > td,
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > thead > tr > th {
+                text-align: left;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > tbody > tr > td.cT-numberColumn,
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > thead > tr > th.cT-numberColumn {
+                text-align: right;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-lastColumn {
+                text-align: right;
+}
+
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line1,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line2,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line3  {
+                clear: left;
+                float: left;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line1.cM-numberCell,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line2.cM-numberCell,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td > span.cT-line3.cM-numberCell  {
+                clear: right;
+                float: right;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn1 > span.cT-line1,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn2 > span.cT-line1,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn1 > span.cT-line2,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn2 > span.cT-line2,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn1 > span.cT-line3,
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn2 > span.cT-line3 {
+                clear: left;
+                float: left;
+                width: 100%;
+                white-space: normal;
+}
+#accountDetails #transactionContainer #transactionPanel td.cT-bodyTableColumn3 > span,
+#accountDetails #transactionContainer #transactionPanel td.cT-bodyTableColumn4 > span,
+#accountDetails #transactionContainer #transactionPanel td.cT-bodyTableColumn5 > span,
+#accountDetails #transactionContainer #transactionPanel td.cT-bodyTableColumn6 > span {
+                white-space: normal;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn0 > span {
+                clear: none;
+                float: none;
+}
+/* Column specific styling */
+/* Add margin and position styles for the expand/collapse button */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn1 > .cM-spriteBase {
+                margin-left: 5px;
+                margin-right: 5px;
+                top: 3px;
+}
+/* Display date inline with button */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn1 > .cT-line1 {
+                display: inline;
+}
+/* Expandable/Collapsable table row section */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody tr.cT-expandCollapseRow {
+                display: none;
+}
+/* Width of expandable colspan 4 row */
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody tr.cT-expandCollapseRow > td.cT-genericDetails {
+                padding-left: 20px;
+                padding-right: 0px;
+                width: 700px;
+}
+/* Pagination container styling */
+#accountDetails .cM-paginationContainer {
+                float: right;
+                padding: 10px 0;
+}
+/* Styling for container with  and labels */
+#accountDetails .cT-filterContainer {
+                float: left;
+                width: 906px;
+                padding: 0px 10px 15px 10px;
+}
+/* Styling for dropdowns  */
+#accountDetails .cA-accountDropdown {
+                margin-right: 15px;
+}
+.dropdownIE10Fix {
+                margin-right: 127px !important;
+}
+#accountDetails .cT-filterContainer .cT-filterDropDownLabel {
+                margin-left: 10px;
+                color: #05589D;
+                float: left;
+                font-size: 11px;
+                margin-top: 10px;
+}
+#accountDetails .cT-filterContainer #transSinceContainer {
+                float: right;
+}
+#accountDetails .cT-filterContainer .cT-transactionSinceLabel {
+                float: left;
+                margin-top: 8px;
+}
+#accountDetails .cT-filterContainer .cT-transactionSinceValue {
+                color: #333333;
+                float: left;
+                margin-left: 7px;
+                margin-top: 8px;
+}
+/* Margin to the left of links at the bottom of transaction table so they are spaced appropriately */
+#accountDetails .cM-paginationContainer {
+                margin-left: 10px;
+}
+/* Styles for transaction description lines */
+#accountDetails .cT-transactionDescLine {
+                float: left;
+                clear: left;
+                padding-right: 10px;
+                width: 100%;
+}
+/* Styles for specific line numbers in the description */
+#accountDetails .cT-line2,
+#accountDetails .cT-line3,
+#accountDetails .cT-line4 {
+                color: #333333;
+                white-space: nowrap;
+}
+#accountDetails .cT-noWrap {
+                white-space: nowrap;
+}
+/* Expand/Collapse details main container */
+#accountDetails .cT-genericDetailsMainContainer {
+                float: left; 
+                padding-bottom: 10px;
+                width: 575px;
+}
+/* Label-value container */
+#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem {
+                float: left;
+                margin-left: 105px;
+                width: 100%;
+}
+#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem .cT-labels,
+#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem .cT-values {
+                float: left;
+                width: 100%;
+}
+/* Label items for expandable section */
+#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem .cT-labelItem {
+                clear: left;
+                float: left;
+                text-align: left;
+                margin-left: 5px;
+                white-space: nowrap;
+}
+/* Value items for expandable section */
+#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem .cT-valueItem,#accountDetails .cT-genericDetailsMainContainer .cT-labelValItem .cT-invValueItem{
+                clear: left;
+                float: left;
+                margin-left: 15px;
+                text-align: left;
+                white-space: nowrap;
+}
+/* Styling for links in expanded sections for TJ table */
+#accountDetails .cT-genericDetailsMainContainer .cT-expandedDetailsLink {
+                float: left;
+                clear: left;
+                margin-left: 151px;
+                text-align: left;  
+                width:400px; 
+}
+#accountDetails .cT-genericDetailsMainContainer .cT-expandedDetailsLink .cM-spriteBase.cM-leftArrowIcon {
+                margin-right: 5px;
+}
+/* Search panel styling */
+#accountDetails #transactionContainer #filterPanel {
+                float: left;
+                margin-top: 13px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #filterPanel #buttonPanel {
+                background: #f6f6f6;
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                float: left;
+                height: auto;
+                padding: 16px 0 16px 0;
+                width: 100%;
+}
+/* Button styling */
+/* Styling for not selected */
+#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-searchButton,
+#searchOpenerButton {
+                background-image: url('/CBOL/ain/accdetact/css/buttonGradient.png');
+                background-position: 0 -36px;
+                background-repeat: repeat-x;
+                border: 1px solid #ccc;
+                cursor: pointer;
+                float: left;
+                font-weight: bold;
+                height: 12px;
+                width: 107px;
+                word-wrap: break-word;
+                padding: 12px 17px;
+                text-align: center;
+}
+#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-searchButton:hover,
+#searchOpenerButton:hover,#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-mortgageFilterButton:hover  {
+                background: #ddd;
+}
+/* Override and make hover state default */
+#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-searchButton .cM-searchIcon {
+    background-position: -1px -200px;       
+}
+/* Styling for selected */
+#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-searchButton.cN-buttonSelected,
+ #accountDetails #transactionContainer #filterPanel #buttonPanel .cN-mortgageFilterButton.cN-buttonSelected {
+                background-image: url('/CBOL/ain/accdetact/css/buttonGradient.png');
+                background-position: 0 0;
+                background-repeat: repeat-x;
+               /* border: 1px solid #4786A9;*/
+                color: white;
+		/* FireEyes and NVDA issue fix */
+				background: #666666;
+  				outline: #CCCCCC;
+}
+#accountDetails #transactionContainer #filterPanel #buttonPanel .cN-searchButton.cN-buttonSelected:hover {
+                cursor: default;
+}
+/* Spacing before first button and width adjustment */
+#accountDetails #transactionContainer #filterPanel #buttonPanel #showAll {
+                height: 12px;
+                margin-left: 12px;
+                padding-bottom: 12px;
+                padding-top: 12px;
+                width: 60px;
+}
+/* Position search button and width adjustment */
+#accountDetails #transactionContainer #filterPanel #buttonPanel #searchOpenerButton {
+                float: right;
+                height: 12px;
+                margin-right: 10px;
+                padding-bottom: 12px;
+                padding-top: 12px;
+                width: auto;
+}
+/* Margin for magnifying glass image */
+#accountDetails #transactionContainer #filterPanel #buttonPanel #searchOpenerButton .cN-buttonText {
+                margin-left: 8px;
+}
+#accountDetails #transactionContainer #filterPanel #radioPanel {
+                border-bottom: 1px solid #ccc;
+                float: left;
+                height: auto;
+                padding: 13px 0;
+                width: 100%;
+}
+
+/* Form default style overriding */
+#accountDetails #transactionContainer #filterPanel form {
+                float: none;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput {
+                display: block;
+                margin: 0;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput fieldset {
+                float: left;
+                padding-bottom: 0px;
+}
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cF-appInput fieldset {
+                padding-bottom: 7px;
+                padding-top: 7px;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput .cF-elementInputChoiceHoriz {
+                margin-bottom: 0px;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput .cF-sideBySide .cF-elementInputBox {
+                margin-bottom: 0px;
+}
+/* Form default overriding for extended search panel */
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cF-appInput input {
+                float: left;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                width: 70px;
+}
+
+/* Override defined width so label expands as need and does not wrap */
+#accountDetails #transactionContainer #filterPanel #radioPanel .cF-appInput .cF-elementInputChoiceHoriz #searchByText {
+                font-weight: bold;
+                margin-right: 40px;
+                width: 160px;
+                text-align: left;
+                float: left;
+                display: block;
+}
+
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel {
+                border-bottom: 1px solid #ccc;
+                float: left;
+                width: 100%;
+}
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #extendedSearchPanelGradient {
+                background-position: -1px -108px;
+                float: left;
+                height: 12px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cA-searchTransButton {
+                margin-left: 30px;
+                position: absolute;
+}
+/*forced width for search input boxes to fix alignment issue with search button*/
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #amountRangeFromTooltip,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #amountRangeToTooltip,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #specificCheckTooltip,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #refRangeFromTooltip,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel #refRangeToTooltip {
+width: 87px;
+}
+/* Needed to override certain display blocks in forms */
+#accountDetails .cM-hide {
+                display: none;
+}
+#accountDetails .cM-bold {
+                font-weight: bold;
+}
+/* Footnote styling */ 
+#accountDetails .cA-footnoteDisclaimer {
+                float: left;
+                padding: 20px 0px 0px 0px;
+                color: #666666;
+}
+#accountDetails .cA-footnoteDisclaimer .cA-specialCharacter {
+                float: left;
+                margin-right: 5px;
+}
+#accountDetails .cA-footnoteDisclaimer .cA-footnoteDisclaimerText {
+                float: left;
+                width: 910px;
+}
+#accountDetails .cM-searchIcon {
+                margin: 0 !important;
+                top: -2px;
+}
+/* Icon positioning fix for IE */
+html.bIE #accountDetails .cM-spriteBase {
+                margin-right: 5px;
+}
+
+/* Prevent the Icon positioning fix above from applying to Sortable Table Header Icons */
+html.bIE #accountDetails thead th .cM-spriteBase.cT-sortArrow {
+                margin-right: 0;
+}
+/* End of Prevent the Icon positioning fix above from applying to Sortable Table Header Icons */
+
+
+
+#accountDetails #loading td {
+                width: 935px;
+}
+#accountDetails div.cT-jampMessages {
+                color: #999;
+                display: block;
+                margin-left: 225px;
+                width: 175px;
+                text-align: center;
+                line-height: 14px;
+}
+#accountDetails .cT-loadingTJMessage {
+                color: #999;
+                display: block;
+                margin-left: 375px;
+                padding-bottom: 25px;
+                width: 175px;
+}
+/* Styling for special transactions */
+#accountDetails #accountDisclaimer {
+                color: #666666;
+                float: left;
+                font-size: 11px;
+                padding-top: 20px;
+                width: 600px;
+}
+#accountDetails #accountDisclaimer .cA-specialCharacter {
+                float: left;
+}
+#accountDetails #accountDisclaimer .cA-footnoteDisclaimerText {
+                float: left;
+                margin-left: 5px;
+                width: 550px;
+}
+/* Mandatory alert and offer styles */
+#accountDetails #alerts > span.cM-spriteBase,
+#accountDetails #offers > span.cM-spriteBase {
+                float: left;
+                margin-right: 8px; 
+}
+#accountDetails #alerts .cM-leftArrowIcon,
+#accountDetails #offers .cM-leftArrowIcon {
+                margin-left: 5px;
+                margin-right: 4px;
+}
+/* Styles for filter dropdown and range containers */
+#accountDetails .cT-filterContainer #filterDropDown {
+                float: left;
+                margin-right: 8px;
+}
+#accountDetails .cT-filterContainer #dateRangeFrom,
+#accountDetails .cT-filterContainer #dateRangeTo,
+#accountDetails .cT-filterContainer #specificDateDropdown,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cF-appInput #dateRangeFrom,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cF-appInput #dateRangeTo,
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cF-appInput #specificDate {
+                float: left;
+                width: 153px;
+                border: 1px solid #C5C5C5;
+                border-radius: 0;
+                padding: 5px 10px;
+                height: 12px;
+                -webkit-appearance: none;
+}
+/*#accountDetails .cT-filterContainer #filterToText {
+                float: left;
+                margin-top: 7px;
+                margin-right: 8px;
+}*/
+#accountDetails .cT-filterContainer .cT-blueButton {
+                float: left;
+}
+#accountDetails .cT-filterContainer .cT-label {
+                float: left;
+}
+#accountDetails #footnoteDisclaimer {
+                float: left;
+                padding: 20px 0px;
+                color: #999;
+}
+#accountDetails #footnoteDisclaimer #specialCharacter {
+                float: left;
+                margin-right: 5px;
+}
+#accountDetails #footnoteDisclaimer #footnoteDisclaimerText {
+                float: left;
+                width: 910px;
+}
+#accountDetails #transactionContainer #filterPanel {
+                margin-top: 10px;
+}
+#accountDetails #TJlinkContainer {
+                float: right;
+                width: 100%;
+}
+#accountDetails #printLink,
+#accountDetails #emailLink,
+#accountDetails #downloadActivity,
+#accountDetails #downloadAccountActivity {
+                float: left;
+                margin-left: 10px;
+                padding-top: 19px;
+}
+/*added for disclosure*/
+#linksDiscContainer {
+float:left;
+}
+#accountDetails #linksDiscContainer #disclosureLink{
+padding-top: 19px;
+color:#666666;
+}
+/*added for defect id:22458*/
+#accountDetails #TJlinkContainer #linksContainer {
+     float:right;
+}
+
+#accountDetailsHeader {
+                border-bottom: 2px solid #ccc;
+                padding: 25px 0 15px 0;
+                width: 934px;
+}
+#accountDetails .cT-filterContainer .cT-label {
+                float: left;
+}
+/* Fix max/min button positioning */
+#accountDetails #transactionContainer #transactionPanel table td.cT-bodyTableColumn0 .cM-spriteBase {
+                top: 1px;
+} 
+/* Style for ghost text */
+#accountDetails .cA-ghostText {
+                color: #999;
+}
+/* Class to hide rows that hidden on keyword */
+.cA-keywordHide {
+                display: none;
+}
+/* Default padding and alignment for input boxes */
+#accountDetails #transactionContainer #filterPanel input {
+                padding-right: 5px;
+}
+/* Syles for text under input range boxes */
+#accountDetails .cA-searchRangeText {
+                clear: left;
+                color: #333;
+                font-size: 11px;
+                margin: auto;
+                padding: 8px 0;
+                width: 300px;
+}
+#accountDetails .cT-filterContainer .cA-searchRangeText              {
+                margin: 0;
+}
+/* Styling for input boxes when selected through filter dropdown for date range and specific date */
+#accountDetails #dateRangeDropdown {
+                float: left;
+                margin-left: 10px;
+                margin-bottom: -15px;
+}
+/* Fix for the defect: 17816 and 21867 */
+#accountDetails #specificDateFilterDropdown {
+                float: left;
+                margin-left: -1px;
+                margin-bottom: -15px;
+}
+#accountDetails #transactionContainer #transactionPanel {
+                padding-bottom: 25px;
+}
+/* Fixes tooltip black styling and padding */
+.colorTextBlack {
+                color: #858585 !important;
+} 
+.interActBublMain {
+                padding: 0 !important;
+}
+/* Tooltip for filter adjustments */
+#accountDetails .cT-filterContainer .jfpw-select-wrapper {
+                float: left;
+}
+#accountDetails .cT-filterContainer .jfpw-select-wrapper a{
+                margin-top: 5px;
+}
+.ui-datepicker-trigger.cF-datePickerIcon {
+                margin-left: -25px;
+                margin-top: 5px;
+}
+.jfpw-tooltip-datepicker.qtip {
+    min-width: 50px;
+}
+/* Styling for keyword search */
+#accountDetails #keywordInputBox, #accountDetails #keywordInputBoxTJ {
+                background: white;
+                border: 1px solid #7f9db9;
+                float: right;
+                width: 221px;
+}
+
+#accountDetails #keywordInputBoxTJ .cM-closeButton,
+#accountDetails #keywordInputBoxTJ .cM-searchIcon {
+                position: relative !important;
+}
+
+/* Override to hide the extra X in input boxes that is displayed in IE10 */
+#searchKeywordBox::-ms-clear,
+#invSearchKeywordBox::-ms-clear {
+    display: none;
+}
+#accountDetails #keywordInputBoxContainer {
+                float: right;
+                padding: 9px 10px 0 0;
+                height: 20px;
+                width: 221px;
+}
+#accountDetails #keywordInputBoxContainer #searchButton, #accountDetails #keywordInputBoxContainer #searchButtonTJ {
+                float: left;
+                margin-left: 3px !important;
+                margin-top: 6px !important;
+}
+html.vIE7 #accountDetails #keywordInputBoxContainer #searchButton,
+html.vIE8 #accountDetails #keywordInputBoxContainer #searchButton {
+                margin-top: 4px !important;
+}
+#accountDetails #keywordInputBoxContainer #searchKeywordBox, 
+#accountDetails #keywordInputBoxContainer #invSearchKeywordBox,
+#accountDetails #keywordInputBoxContainer #searchKeywordBoxTJ {
+                background: transparent;
+                border: none;
+                float: left;
+                height: 16px;
+                margin-left: 5px;
+                margin-top: 1px;
+                outline: none;
+                text-align: left;
+                width: 144px;
+}
+#accountDetails #keywordInputBoxContainer #keywordSeperator, #accountDetails #keywordInputBoxContainer #keywordSeperatorTJ {
+                background-color: #555;
+                float: left;
+                margin-left: 4px;
+                margin-top: 2px;
+                height: 16px;
+                width: 1px;
+}
+html.bIE #accountDetails #keywordInputBoxContainer #keywordSeperator, html.bIE #accountDetails #keywordInputBoxContainer #keywordSeperatorTJ {
+                margin-left: 0px;
+}
+#accountDetails #keywordInputBoxContainer #keywordClearButton, #accountDetails #keywordInputBoxContainer #keywordClearButtonTJ {
+                cursor: pointer;
+                float: left;
+                margin-left: 4px;
+                margin-top: -1px;
+                height: 16px;
+                width: 17px;
+}
+html.vIE7 #accountDetails #keywordInputBoxContainer #keywordClearButton,
+html.vIE8 #accountDetails #keywordInputBoxContainer #keywordClearButton {
+                margin-top: 2px;
+}
+#accountDetails #keywordInputBoxContainer #keywordGoButton, #accountDetails #keywordInputBoxContainer #keywordGoButtonTJ {
+                color: #666;
+                cursor: pointer;
+                float: left;
+                font-weight: bold;
+                height: 10px;
+                margin-left: 5px;
+                margin-top: 4px;
+                width: 5px;
+}
+#accountDetails #keywordInputBoxContainer #advancedSearchLink {
+                clear: both;
+                float: right;
+                margin-left: 95px;
+                margin-top: 6px;
+                width: 130px;
+                text-align: right;
+}
+/* Close search link styling */
+#accountDetails #closeSearchLink {
+                float: right;
+                margin-right: 10px;
+                margin-top: 5px;
+}
+#accountDetails #accountDetailsErrorContainer {
+                padding: 15px 0;
+}
+#accountDetails #accountDetailsErrorContainer .cM-negErrIcon{
+                margin-right: 6px;
+                
+}
+#accountDetails #rewardsContainer .cM-negErrIcon {
+                margin-right: 6px;
+}
+#accountDetails #transactionContainer #searchCriteriaMessage{
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+#accountDetails .cA-runningBalanceHide {
+                display: none;
+}
+.jfpw-select .ui-selectmenu-status span {
+                margin-top: 0px !important;
+}
+/* IE fix to make tooltip underline show up */
+html.bIE #accountDetails #specialDisclaimerTooltip {
+                display: inline-block;
+}
+/* Icon alignments for various browsers */
+html.vIE7 #accountDetails #alerts > span.cM-spriteBase,
+html.vIE7 #accountDetails #offers > span.cM-spriteBase,
+html.vIE8 #accountDetails #alerts > span.cM-spriteBase,
+html.vIE8 #accountDetails #offers > span.cM-spriteBase {
+                margin-top: 5px;
+}
+html.bIE #accountDetails #quickLinksContainer li .cM-spriteBase {
+                margin-top: 5px;
+}
+/* Styling for labels */
+#accountDetails .cM-red {
+                color: #D60000 !important;
+}
+#accountDetails #accountInfo .cM-red > span {
+                color: #D60000 !important;
+}
+#accountDetails .cM-bold {
+                font-weight: bold !important;
+}
+/* Class to hide rows because of a filter */
+.cA-filterHide,
+.cA-accountFilterHide {
+                display: none;
+}
+/* TJ table message styling */
+#accountDetails #noCurrentActivity,
+#accountDetails #TJErrorMessage,
+#accountDetails #TJJSONErrorMessage,
+#accountDetails #mortgagetableerror,
+#accountDetails #mortgagetableerrorBlue {
+                padding: 25px;
+                text-align: left;
+}
+#accountDetails #noCurrentActivity .cM-negErrIcon,
+#accountDetails #TJErrorMessage .cM-negErrIcon,
+#accountDetails #TJJSONErrorMessage .cM-negErrIcon,
+#accountDetails #mortgagetableerror .cM-negErrIcon,
+#accountDetails #mortgagetableerrorBlue .cM-negErrIcon {
+                margin-right: 6px;
+}
+#accountDetails #mortgagetableerrorbottom {
+                height: 12px;
+                float: left;
+                padding: 19px 10px 19px 25px;
+                width: 100%;
+}
+#accountDetails #mortgagetableerrorbottom .cM-negErrIcon{
+                margin-right: 7px;
+}
+/* Radio account filtering CSS */
+#accountDetails #accountRadioFilterPanel {
+                border-bottom: 1px solid #ccc;
+                float: left;
+                padding: 10px;
+                width: 906px;
+}
+#accountDetails #accountRadioFilterPanel #filterCarouselContainer {
+                float: left;
+                width: 845px;
+}
+#accountDetails #accountRadioFilterPanel .cA-radioFilterLabelInputContainer {
+                float: left;
+}
+#accountDetails #accountRadioFilterPanel .cA-radioFilterAllContainer {
+                border-right: 1px solid #999;
+                float: left;
+                height: auto;
+                width: auto;
+}
+#accountDetails #accountRadioFilterPanel input{
+                float: left;
+                margin-top: 7px;
+                margin-right: 10px;
+}
+#accountDetails #accountRadioFilterPanel .cA-radioFilterLabelInputContainer .cA-radioFilterLabelContainer {
+                float: left;            
+                line-height: 16px;
+                width: 165px;
+}
+#accountDetails #accountRadioFilterPanel .cA-allFilterLabel {
+                float: left;
+                margin-top: 8px;
+}
+#accountDetails #accountRadioFilterPanel .jcarousel-container {
+                left: 45px;
+}
+#accountDetails #accountRadioFilterPanel .jcarousel-clip-horizontal {
+                width: 785px;
+}
+#accountDetails #accountRadioFilterPanel .jcarousel-skin-avatar .jcarousel-prev-horizontal {
+                top: 7px;
+                left: 28px;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                user-select: none;
+}
+#accountDetails #accountRadioFilterPanel .jcarousel-skin-avatar .jcarousel-next-horizontal {
+                top: 7px;
+                right: 48px;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                user-select: none;
+}
+/* Credit meter styling */
+#accountDetails #creditMeter {
+                background-color: #e2e2e2;
+                border: 1px solid #ccc;
+                float: left;
+                height: 7px;
+                margin-top: 8px;
+                width: 260px;
+}
+#accountDetails #creditMeter #creditMeterUsage {
+                background-color: #285e9c;
+                height: 7px;
+}
+#accountDetails .cA-bottomCreditMeterLabelVal {
+                margin-top: 8px;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem.cA-topCreditMeterLabelVal .cT-labelItem {
+                text-align: right;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem.cA-bottomCreditMeterLabelVal .cT-labelItem {
+                width: 110px !important;
+}
+#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem.cA-bottomCreditMeterLabelVal .cT-valueItem ,#accountDetails > #accountInfoPanel > #accountInfo > #leftLabelValueContainer .cT-labelValItem.cA-bottomCreditMeterLabelVal .cT-invValueItem {
+                float: left;
+}
+#accountDetails #postedTransTable,
+#accountDetails #specialTransTable {
+                display: none !important;
+}
+/* MPW/LPW Styling */
+#accountDetails .cT-warning {
+                font-size: 11px;
+                color: #333333;
+                border-bottom: 1px dotted #999;
+                margin-right: 10px;
+                float: left;
+                cursor: pointer;
+}
+#accountDetails .cT-warning:hover {
+color: #05589D;
+}
+/* Extended subfield styling */
+#accountDetails .cA-extendedLabel {
+                clear: left;
+                float: left;
+}
+#accountDetails .cA-extendedLabelPlaceholder {
+                clear: left;
+                float: left;
+                height: 18px;
+}
+#accountDetails .cA-extendedValue {
+                clear: left;
+                float: left;
+                height: 18px;
+}
+#accountDetails #regionalPricingLink {
+                float: left;
+                margin-top: 10px;
+                width: 100%;
+}
+#accountDetails #regionalPricingLink #regionalPricingLinkLabel {
+                float: left;
+}
+#accountDetails #regionalPricingLink #regionalPricingLinkState {
+                float: left;
+                margin-left: 5px;
+}
+/* See more/all styles */
+#accountDetails #transactionContainer #transactionPanel #seeMoreRow,
+#accountDetails #transactionContainer #transactionPanel #seeAllRow {
+                float: left;
+                padding: 20px 40px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #postedTansactionTable #seeMoreLoading {
+                float: left;
+                padding: 10px 0px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #postedTansactionTable #noMoreTrans,
+#accountDetails #transactionContainer #postedTansactionTable #noMoreTransFilter {
+                height: 12px;
+                float: left;
+                font-weight: bold;
+                padding: 14px 40px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #postedTansactionTable #seeMoreError {
+                height: 12px;
+                float: left;
+                padding: 19px 10px;
+                width: 100%;
+}
+#accountDetails #transactionContainer #postedTansactionTable #seeMoreError .cM-negErrIcon{
+                margin-right: 7px;
+}
+/* Balance tooltip styles */
+.cA-balanceToolTip {
+                min-width: 220px;
+}
+.cA-balanceToolTip .cA-tooltipHeader {
+                color: black;
+                float: left;
+                font-weight: bold;
+}
+.cA-balanceToolTip .cA-tooltipLabelVal {
+                clear: left;
+                float: left;
+                margin-top: 5px;
+                width: 100%;
+}
+.cA-balanceToolTip .cA-tooltipLabelVal .cA-tooltipLabel {
+                color: black;
+                float: left;
+                max-width: 145px;
+}
+.cA-balanceToolTip .cA-tooltipLabelVal .cA-tooltipValue {
+                float: left;
+                margin-left: 5px;
+}
+#accountDetails .cA-sortText,
+#printerFriendlyContainer .cA-sortText {
+                display: none!important;
+}
+/* Single line adjustment for card names on the carousel */
+#accountDetails .cA-cardAlignAdjust {
+                margin-top: 6px;
+}
+html.bIE #accountDetails .cA-cardAlignAdjust {
+                margin-top: 9px;
+}
+/* For links within the main TJ row */
+.cT-tjRowLink {
+                clear: left;
+                float: left;
+}
+/* Loading image styling for tooltips */
+.cA-loadingTooltip {
+                width: 100px;
+}
+.cA-loadingTooltip .cA-loadingImage {
+                background-image: url("/JFP/images/widgets/jfpw-spinner-large.gif");
+                height: 50px; 
+                margin-left: 25px;
+                margin-top: 15px;
+                width: 50px; 
+}
+/* Disables the sort icon for the running balance column */
+.sorter-false .cT-sortPipe,
+.sorter-false .cT-sortArrow {
+                display: none;
+}
+/* Account Details Quick Links App */
+.cS-structRightPanelUpperContainer {
+                border-left: 1px solid #ccc;
+                float: left;
+                height: 135px;
+                margin-top: 20px;
+                padding-left: 25px;
+}
+#quickLinksContainer {
+                float: left;
+                width: 205px;
+}
+#quickLinksContainer #quickLinksList {
+                margin-top: 15px;
+}
+#quickLinksContainer #quickLinksList li {
+                display: block;
+                line-height: 20px;
+}
+#quickLinksContainer #quickLinksList .cN-quickTaskLink {
+                color: #05589D;
+}
+#quickLinksContainer #quickLinksList .cN-quickTaskLink:hover {
+                text-decoration: underline;
+}
+#alerts {
+                float: left;
+                height: auto;
+                margin-top: 15px;
+                width: 100%;
+}
+.cT-cops{
+                color: #ff0000;
+                font-weight:bold;
+}
+#offers {
+                float: left;
+                height: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+}
+div#offers>span.cM-spriteBase{float:left;margin-right:3px}
+#accountDetails .cL-quickTasksList li{border-bottom: 0px; padding-bottom:0px;width: 100%;height: auto;}
+#accountDetails .cS-quickTasksPanel .cL-quickTasksList .cM-leftArrowIcon{float: none;margin-top: 0px;}
+#accountDetails #rightLabelValueContainer .cT-secondCurrency,#accountDetails #leftLabelValueContainer .cT-secondCurrency{color:#333333;}
+#accountDetails #accountInfo.cA-multiCurrency #rightLabelValueContainer .cT-secondCurrency,#accountDetails #accountInfo.cA-multiCurrency #leftLabelValueContainer .cT-secondCurrency{color:black;}
+#accountDetails .widgetBGOnError {background-color: #FFFAA1;}
+
+.jcarousel-skin-avatar .jcarousel-prev-horizontal {
+    background: url("/JFP/images/widgets/widget_sprite.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 13px;
+}
+.jcarousel-skin-avatar .jcarousel-next-horizontal {
+    background: url("/JFP/images/widgets/widget_sprite.png") no-repeat scroll -12px 0 transparent;
+    cursor: pointer;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    top: 43px;
+    width: 13px;
+}
+#accountDetails #rightLabelValueContainer .cS-negativeTypeValue, #accountDetails #leftLabelValueContainer .cS-negativeTypeValue {
+    color: #D60000 !important;
+}
+.cA-JAMPADA {
+                background-image: url("/JFP/images/widgets/jfpw-spinner-large.gif");
+}
+#riskSummaryState-info .disclaimerText {
+                color: #666666;
+                display: block;
+    float: left;
+    font-size: 11px;
+    padding-bottom: 24px;
+    padding-top: 15px;
+    width: 100%;
+} 
+#riskSummaryHelpIcon-info .disclaimerText {
+                color: #666666;
+                display: block;
+    float: left;
+    font-size: 11px;
+    padding-bottom: 24px;
+    padding-top: 15px;
+    width: 100%;
+}             
+
+#riskSummaryState-info .cF-sideBySide .cF-element label {
+                width: 110px;
+}
+#riskSummaryHelpIcon-info .cF-sideBySide .cF-element label {
+    width: 110px;
+}
+
+/* Adding separate width to the IE9 and IE10 browser */
+html.bIE #riskSummaryState-info .cF-sideBySide .cF-element label {
+                width: 113px;
+}
+#riskSummaryState-info .cF-sideBySide {
+                width: 250px;
+}
+#riskSummaryState-info .cF-element{
+                margin-bottom:5px;
+}
+/* Adding separate width to the IE9 and IE10 browser */
+html.bIE #riskSummaryHelpIcon-info .cF-sideBySide .cF-element label {
+                width: 113px;
+}
+#riskSummaryHelpIcon-info .cF-sideBySide {
+                width: 250px;
+}
+#riskSummaryHelpIcon-info .cF-element{
+                margin-bottom:5px;
+}
+
+/* Relationship title styling */
+#relationshipTitle {
+                float: left;
+                height: 30px;
+                width: 100%;
+}
+#relationshipTitle .cT-labelValItem {
+                font-weight: bold;
+}
+/*ADA investments*/
+#invAccountsPanel {
+                float: left;
+                width: 100%;
+}
+#invAccountsPanel tr th {
+                width: 80px;
+}
+#invAccountsTable table {
+                width: 100%;
+}
+#invAccountsTable table thead {
+                border-bottom: 1px solid #cccccc;
+                height: 54px;
+                /* Defect: 21251 */
+                *height: 24px;
+}
+#invAccountsPanel .cA-actionFlyOut {
+    display: block;
+    /*float: left;*/
+    margin-left: 7px;
+}
+
+.reg-header-font
+{
+	font-weight: normal;
+}
+.reg-header-marast
+{
+	margin-left:10px;
+}
+.reg-header-marhea
+{
+	margin-left:3px;
+}
+.reg-char-column
+{
+	font-size: 17px;
+	margin-left:3px;
+}
+.cM-left {
+                float:left;
+}
+
+/* Fix for defect #1782 */
+.cM-margin {
+                margin: 0 25%;
+}
+
+.cA-actionFlyOut {
+                background: #E4E4E4;
+                border: 1px solid #999;
+                height: 30px;
+                margin: auto;
+                width: 30px;
+                position: relative;
+}
+.cA-actionFlyOut .cT-sortArrow {
+                background-image: url('/JFP/images/widgets/jfpw-lightgrid-asc.gif');
+                background-position: -7px 0;
+                background-repeat: repeat-x;
+                display: inline-block;
+                height: 4px;
+                left: -12px;
+                top: 4px;
+                width: 8px;
+}
+html.bIE .cA-actionFlyOut {
+                position: relative;
+                right: 5px;
+}
+html.bIE .cA-actionFlyOut .cT-sortArrow {
+                position: relative;
+                margin-top: 10px;
+                left: -5px;
+}
+.cH-invHeader {
+    border-bottom: 1px solid #ccc;
+    padding-top: 19px;
+                padding-bottom: 17px;
+                padding-left: 10px;
+                width: auto;
+                margin-bottom: 10px;
+}
+/*#22448 Will be added only to ADA INV holding header  */
+#invAccountsPanel .cH-invHeader {
+                clear: both;
+}
+/* For action flyout on tooltip widgets */
+.cA-actionFlyOutToolTip {
+                float:left;             
+}
+.cA-actionFlyOutToolTip ul {
+                margin:0 10px;
+                padding:6px 0;
+}
+.cA-actionFlyOutToolTip ul li {
+                border-bottom:1px solid #CCCCCC;
+                color: #333333;
+                cursor:pointer;
+                display:block;
+                float:none;
+                min-width: 68px;
+                padding: 6px 5px 12px 5px;
+}
+.cA-actionFlyOutToolTip ul li:hover {
+                background:#F3F3F3;
+}
+.cA-actionFlyOutToolTip ul li a {
+                color: #333333;
+}
+.cA-actionFlyOutToolTip .ui-tooltip-content {
+                margin: 0;
+}
+.cT-addFlyoutMinWidth {
+                min-width: 0px !important;
+                *width: auto;
+}
+.cT-addFlyoutMinWidth .ui-tooltip-content {
+                padding: 0px !important;
+}
+
+#invAccountsTable .cM-Green {
+               color: green;
+}
+
+#invAccountsTable table.cA-UMBRELLA .cA-amtLineColumn.cT-ADAline1 {
+                color: #333333;
+}
+
+.cA-amtLineColumn.cT-ADAline1 {
+               color: #333333;
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr.cT-firstRow {
+                cursor: default;
+}
+.cA-accountDropdown {
+                width: 550px;
+}
+#buttonPanel  .cA-investmentProductFilter{ 
+    float: left;
+    margin-left: 39px;
+    margin-top: 9px;
+}
+.cA-brokerageDropDown { 
+    left: 100px;
+    position: relative;
+    top: -48px;
+    display: inline-block;
+}
+.cA-amtLineColumn.cT-ADAline1.cA-black {
+                color: #000000;  
+}
+#accountDetails #TJlinkContainer .cA-ADAInvLinkButton > a:hover {
+     text-decoration: none;
+     float: none;
+}
+
+#accountDetails #TJlinkContainer #linksContainer a:hover {
+    text-decoration: underline;
+}
+
+.cA-accTjErrorColumn, .cA-systemErrorOnInvTJ {
+                position: relative;
+                top: 10px;
+        left: 15px;
+                text-align: left;
+                color: #000000;
+                margin-bottom: 20px;
+}
+#accountDetails #transactionContainer #postedTansactionTable .cA-filterErrorMessage{
+  float:none;
+}
+
+.cA-accTjErrorColumn .cM-negErrIcon {
+                margin-right: 6px;
+}
+
+html.vIE10 #accountDetails table.cA-BROKERAGE {
+                position: relative;
+                
+}
+
+#accountDetails #transactionContainer > #transactionPanel div.cA-errorMessage > span {
+                float: left;
+                top: 3px;
+
+}
+html.vIE10 #accountDetails #transactionContainer > #transactionPanel div.cA-errorMessage > span {
+                top: 0px;
+}
+.cA-filterErrorMessage {
+                margin-left: 5px;
+                float: left;
+}
+
+html.bIE #accountDetails #transactionContainer > #transactionPanel div.cA-errorMessage  > span {
+              /*  margin-top: 3px;*/
+}
+
+#searchKeywordBoxTooltip, #searchKeywordBoxTooltipTJ {
+                float: left;
+}
+#accountDetails #keywordInputBoxContainer #searchKeywordBox.widgetBGOnError,
+#accountDetails #keywordInputBoxContainer #invSearchKeywordBox.widgetBGOnError {
+                background-color: #FFFAA1;
+}
+
+#riskSummary {
+                color: #666666;
+                float: left;
+}
+/* Sets max width for predictive search items so that multiple can fit in the search box */
+#accountDetails .cA-sb-selectedSearch .cA-sb-selectedText {
+                max-width: 88px; 
+}
+/* Sets width instead of max width for IE7 and 8 because max-width is buggy in these browsers */
+HTML.vIE7 #accountDetails .cA-sb-selectedSearch .cA-sb-selectedText,
+HTML.vIE8 #accountDetails .cA-sb-selectedSearch .cA-sb-selectedText {
+                width: 88px; 
+}
+#accountDetails #refreshLink {
+                float: right;
+                clear: both;
+                padding-right: 3px;
+}
+#accountDetails #cM-sb-wrapper {
+                margin-right: 10px;
+                margin-top: 0px;
+                clear: right;
+}
+/* Overriding style that was adding margin right 5px on all spritebase elements in IE */
+HTML.bIE #accountDetails #cM-sb-wrapper .cM-spriteBase.cA-sb-selectedText {
+                margin-right: 0px;
+}
+
+#accountDetails .cT-filterTableHide {
+                display:none;
+}
+
+/*CBOL7300-Sprint1-Team1-Defect#12695&#12691-START*/
+#accountDetails #cM-sb-results .cA-sb-blueText {
+                color: #05589D;
+                font-weight: bold;
+}
+
+#accountDetails #transactionContainer #filterPanel #cM-sb-input{
+    padding : 3px 5px 3px 0px;
+    height : 16px;
+}
+
+html.bIE #accountDetails #transactionContainer #filterPanel #cM-sb-input{
+                margin-top: 2px ;
+                padding : 3px 5px 0px 0px;
+                height : 16px;
+}
+/*CBOL7300-Sprint1-Team1-Defect#12695&#12691-END*/
+
+#accountDetails .cA-errorMessage{
+                margin-left : 10px;
+                padding-bottom : 27px;
+}
+
+#accountDetails #transactionContainer > #transactionPanel div.cA-errorMessage > span.cA-filterErrorMessage{
+                margin-top : 4px;
+}
+
+
+#accountDetails #transactionContainer #transactionPanel #holdingSummaryDetails {
+                width: 700px;
+                margin: 15px 0px 15px 90px;
+}
+
+#accountDetails #transactionContainer #transactionPanel #holdingSummaryHeader {
+                border-bottom: 2px solid #CCCCCC;
+                padding-bottom: 18px;
+                padding-left: 12px;
+}
+
+#accountDetails #transactionContainer #transactionPanel #holdingSummaryDetails #groupSeparator {
+                display:block;
+                width: 100%;
+                margin-bottom:14px;
+}
+
+#accountDetails #transactionContainer #transactionPanel #holdingSummaryDetails #groupSeparator hr {
+                border-top: 1px dotted;
+}
+
+#TJlinkContainer.cA-alignTJcontainerWithHeader {
+    margin-bottom: 10px;
+    padding: 34px 0 0;
+    position: relative;
+    top: 14px;
+}
+/* styles for clear all filters */
+#accountDetails #clearAll {
+               float: right;
+               margin-right: 3px;
+               width: auto;
+               position: relative;
+               top: -11px;
+}
+.cT-hideForViewMoreViewAll {
+                display: none;
+}
+
+.cT-invisibleRowForShowAll,
+.cM-TJhide {
+    display: none;
+}
+.cA-nonPredictive {
+                margin-top: -12px;
+                clear: right;
+}
+
+#keywordInputBoxContainer #refreshLink {
+                margin-top: 3px;
+}
+
+.viewMoreButton:hover .viewMoreButtonText, .viewMoreButton:hover {
+   color: #0078C3; 
+}
+
+.cA-viewMoreViewAllContainer a:hover {
+                text-decoration:none !important;
+}
+/*fix for 14894 */
+.cA-viewMoreViewAllContainerForSearch a:hover {
+                text-decoration:none !important;
+}
+
+.cM-plusIcon:hover{
+   background-position: -1px -722px;
+}
+
+.viewMoreButtonText {
+    border-left: 1px solid #DEDEDE;
+    cursor: pointer;
+    color: #141414;
+    font-weight: bold;
+    padding: 6px 20px 7px 20px;   
+    margin-left: 4px
+}
+HTML.vIE7 .viewMoreButtonText {
+                margin-left: 6px;
+}
+HTML.vIE8 .viewMoreButtonText {
+                margin-left: 1px;
+}
+.viewMoreButton {
+    padding: 6px 0px 7px 8px;
+                border: 1px solid #DEDEDE;
+    color: #666666;
+    background-color: #F2F2F2;
+}
+HTML.vIE7 .viewMoreButton {
+                display: inline-block;
+}
+#accountDetails .viewMoreButton .cM-plusIcon.cM-spriteBase {
+                margin-right: 0;
+}
+.viewMoreButton  .cM-plusIcon {
+   top: 3px;
+}  
+.viewMoreButton:hover  .cM-plusIcon {
+   background-position: -16px -18px;
+}  
+
+.cA-viewMoreViewAllContainer {
+                float: left;
+                width: 100%;
+}
+/* CSS style added for the defect #13176 and #13186 */
+#holdingSummaryDetails.cF-sideBySide .cF-element label            {
+                width: 248px;
+}
+
+/* CSS style added for need for help buble tooltip */
+.PremiumHelpSection    {
+                float: right;
+                margin-top: 15px;
+                position: relative;
+                top: -56px;
+}
+.PremiumHelpSection > span {
+                color: #000000;
+}
+
+HTML.vIE7 #accountDetails #refreshLink {
+                margin-top: 5px;
+                width: 60px;
+}
+
+HTML.vIE7 #accountDetails #cM-sb-wrapper {
+                margin-top: 0px;              
+}
+
+HTML.vIE7 #accountDetails #keywordInputBoxContainer {
+                padding-top: 5px;
+}
+
+.cT-hideForSearch {
+                display: none;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput .cF-elementInputChoiceHoriz {
+    width: 100%;
+}
+#accountDetails #transactionContainer #filterPanel .cF-elementInputChoiceHoriz span {
+    line-height: 11px;
+} 
+
+HTML.vOP11 #accountDetails #transactionContainer #filterPanel .cA-sb-selectedSearch .cA-sb-xButton {
+                display: inline;
+}              
+.cT-hideRow {
+                display: none;
+}
+/* defectid:13640 */
+#emOverlayContainer li a.cA-serviceMessage {
+    display: inline-block;
+}
+#accountDetails .cA-viewMoreViewAllContainerForSearch {
+    clear:both;
+}
+/* defectid:14893 */
+#accountDetails #transactionContainer > #transactionPanel  #invAccountsTable table.cT-transactionTable {
+                margin-top:-27px;
+}
+#accountDropdown label.cA-singleAccProdDropDown {
+     /*  margin-left: 10px;*/
+       width: 570px;
+}
+
+/* Styles for tj offers */
+/* Positions the offers wrapper correctly on the page */
+.cA-offersWrapper {
+                float: left;
+                margin-top: 5px;
+                margin-left:151px;
+}
+
+/* Positions the detailed image in the expanded view correctly */
+.cA-offersImageWrapper {
+                float: left;
+}
+
+/* Positions the image within the image wrapper correctly */
+.cA-offersImage {
+                float: right;
+                height: 48px;
+                width: 48px;
+}
+
+/* Positions the text to the correct side of the div */
+.cA-offersText {
+                float: left;
+                margin-left: 15px;
+                text-align: left;
+}
+
+/* Boldens the text in the header and content to match the screen shot */
+.cA-offersHeader,
+.cA-offersContent {
+                font-weight: bold;
+}
+
+/* Correctly colors the background of the header text */
+.cA-offersHeader {
+                background: rgb(255, 255, 200);
+                display: inline-block;
+}
+
+/* Adds proper spacing between the header in the expanded view and the rest of the offer content */
+.cA-offersWrapper .cA-offersHeader {
+                margin-bottom: 5px;
+}
+
+/* Makes sure that the offer header in the expanded view takes up the whole line */
+.cA-offersText .cA-offersHeader {
+                width: 100%;
+}
+
+/* Correctly positions the image header on the screen */
+.cA-offersHeaderImage {
+                height: 12px;
+                float: left;
+                margin-right: 3px;
+                vertical-align: top;
+                width: 8px;
+}
+
+/* Correctly positions the offers header in the collapsed view */
+.cA-offersHeaderWrapper {
+                clear: both;
+}
+
+/* Styles the text portion of the collapsed header correctly */
+.cA-textContainer {
+                display: block;
+                overflow: hidden;
+}
+/* End styles for tj offers */
+/** Styles for displaying the ADA with TJs**/
+/** Styles for displaying the Transaction and Holdings in Tabs**/
+#invCrossToggleLinks {
+	float:left;
+	width:100%;
+	border-bottom:1px solid #ccc;
+	padding-top: 20px;
+}
+#viewTransactions {
+	/*background-image: url("/CBOL/ain/accdetact/css/buttonGradient.png");
+    background-position: 0 -36px;
+    background-repeat: repeat-x;*/
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 40px;
+    padding: 12px 17px;
+    text-align: center;    
+    word-wrap: break-word;
+    width: 170px;
+}
+#viewHoldings {
+	/*background-image: url("/CBOL/ain/accdetact/css/buttonGradient.png");
+    background-position: 0 -36px;
+    background-repeat: repeat-x;*/ 
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 40px;
+    padding: 12px 17px;
+    text-align: center;    
+    word-wrap: break-word;
+    width: 170px;
+}
+#viewHoldings:hover,#viewTransactions:hover{
+/*background: #ddd none repeat scroll 0 0;   */
+
+}
+
+#cmlink_ViewTransactionsLink,#cmlink_ViewHoldingsLink{
+	width:145px;
+	height:auto;
+	text-decoration:none !important;
+	color:#333;
+	font-weight:bold;
+}
+.crossinvLinkSelect  #cmlink_ViewTransactionsLink,.crossinvLinkSelect  #cmlink_ViewHoldingsLink{
+text-decoration:none !important;
+}
+.crossinvLinkSelect{
+/*background: #666666 none repeat scroll 0 0 !important;*/
+    color: white;
+    outline: medium none #cccccc;
+}
+
+/* Styles for specific line numbers for ADA INV TJs */
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable {
+                border-bottom: 1px solid #ccc;
+                table-layout: fixed;
+                width: 925px;
+                margin-top: -1px;
+}
+/* Set default so contents will wrap unless cT-noWrap class is added to column */
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable td,
+#accountDetails #transactionContainer #postedTansactionTable tbody.cA-investmentHoldingBody td {
+                -ms-word-break: break-all;
+                word-break: break-all;
+                word-break: break-word; /* Non standard for webkit */
+                -webkit-hyphens: auto;
+                -moz-hyphens: auto;
+                -ms-hyphens: auto;
+                hyphens: auto;
+}
+/* When cT-noWrap class is added to column remove word break property */
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable td.cT-noWrap,
+#accountDetails #transactionContainer #postedTansactionTable tbody.cA-investmentHoldingBody td.cT-noWrap {
+                -ms-word-break: normal;
+                word-break: normal;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable th {
+                border-bottom: 1px solid #ccc;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable tr.cT-firstRow td span {
+                color: #333333;
+                display: block;
+}
+.cA-grey {
+                color: #333333 !important;
+}
+.cA-adaTJRight {
+                text-align: right !important;
+}
+.cA-adaTJLeft {
+                text-align: left !important;
+}
+/* Styles for Dropdown update. Styles override common style widths due to width difference with PNT */
+#accountDetails .cF-accountSelect.ui-selectmenu.jfpw-select .ui-selectmenu-status {
+                width: 530px;
+}
+#accountDetails .cF-accountSelect.ui-selectmenu.jfpw-select .ui-selectmenu-status .cS-accountMenuAccount span {
+                max-width: 250px;
+}
+.cA-accountDropdown.cF-accountSelect.ui-selectmenu-menu.jfpw-select li {
+                width: 530px;
+}
+.cA-accountDropdown.cF-accountSelect.ui-selectmenu-menu.jfpw-select li span.cS-accountMenuItem {
+                width:   510px;
+}
+/* Styles for the INV TJ's*/
+.cM-filterDropDownMargin{
+                margin-right:8px;
+}
+.cM-dateDropDownMargin{
+                margin-top: 10px;
+                margin-left: -38px !important;
+                /* Defect: 21251 */
+                padding-bottom: 5px\9;               
+}
+#accountDetails .cM-tjsearchRangeText{
+                width:100%;
+                padding-top:15px;
+}
+#advancedSearchLink.cM-advancedSearchLink{
+                width:117px !important;
+}
+#accountDetails #transactionContainer #filterPanel #buttonPanel #dateRangeButton.cM-tjGoBtn{
+                padding:5px 7px;
+                height:12px;
+                width:13px;
+                color:inherit;
+}
+
+#accountDetails #invAdvSearchOptions {
+    float: left;
+    height: auto;
+    padding: 13px 0;
+    width: 100%;
+}
+
+#accountDetails  #invAdvSearch {
+                float: right; 
+                padding: 13px 0;
+}
+#accountDetails #invAdvSearchOptions .cF-inputChoiceList{
+                float:none;
+
+}
+#specificDateFilterDropdown.cM-tjSpecificDateDropDown{
+                margin-left: 0;
+    width: 430px;
+}
+/* styles for INV TJ'S filters */
+#accountDetails .cT-filterContainer > #filterText {
+                float: left;
+                margin: 6px;
+                font-weight: bold;
+}
+#accountDetails .cT-filterContainer #dateGoBtn {
+                margin-top: 3px;
+}
+
+/*Code changes for the inv ADA TJ's*/
+#accountDetails #specificDateFilterDropdown.cM-tjSpecificDateDropDown .cF-value {
+    margin-left: 238px;
+}
+#accountDetails #specificDateFilterDropdown.cM-tjSpecificDateDropDown .ui-datepicker-trigger.cF-datePickerIcon,
+#accountDetails #dateRangeDropdown.cM-dateDropDownMargin .ui-datepicker-trigger.cF-datePickerIcon{
+                margin-left: -23px;
+                margin-top: 4px;
+}
+#accountDetails .cM-tjsearchRangeText {
+                width: 450px;
+}
+#accountDetails #dateRangeDropdown .cM-fromDate {
+                margin-left: 41px;
+}
+.cM-tjFilterSpace {
+                margin-left: 4px;
+    margin-right: 20px;
+}
+/*#accountDetails #dateRangeDropdown.cM-dateDropDownMargin #filterToText {
+                float: left;
+                margin-top: 7px;
+                margin-right: 4px;
+                margin-left: 6px;
+                Defect: 21251 Fix 
+                *margin-left: -9px;
+}*/
+#accountDetails a.cT-blueButton:hover { 
+                text-decoration: none;
+}
+#accountDetails a.cT-creditLineLink:hover {
+                text-decoration: underline;
+}
+/* Defect fix for #16293*/
+.cA-marketFilterDropdown{
+                position:absolute;
+}
+/*Adding style to suppress the line above the error message */
+.cA-supressLine                {
+                border-bottom: 0px solid #CCCCCC;
+}
+#orderStatus #amountRangeButton,
+#marketSearch #amountRangeButton {
+                margin-top: 3px;
+}
+#advancedSearchLink {
+                float: right;
+                clear: right;
+                margin-top: 14px;
+                margin-right: 10px;
+                /* Defect: 21251 */
+                *white-space: nowrap;
+}
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cA-searchTransButton:hover {
+    text-decoration: none;
+}
+#orderStatus .jfpw-select .ui-selectmenu-status span ,
+#marketSearch .jfpw-select .ui-selectmenu-status span {
+    margin-top: 0px !important;
+}
+#orderStatus label,
+#marketSearch label {
+                margin-top: 3px;
+}
+.cA-noShowAllPlacement {
+    margin-left: 40px !important;
+}
+.cA-noShowDatePlacement {
+   margin-left: 38px !important;
+}
+#specificDateDropdown-wrapper,
+#dateRangeFrom-wrapper,
+#dateRangeTo-wrapper {
+     float: left;
+}
+#ui-tooltip-warning-0, #ui-tooltip-warning-1, #ui-tooltip-summaryTooltip {
+                max-width: none;
+                width: auto;
+                z-index:15001 !important;
+}
+#specificDateDropdown.cM-marginAlignment {
+                margin-left:-10px;           
+}
+#accountDetails #transactionContainer #postedTansactionTable .cA-productErrorOnInvTJ {
+                margin-top: 15px;
+                margin-left: 10px;
+                padding-bottom: 15px;
+}
+#accountDetails #transactionContainer #postedTansactionTable .searchErrMargin {
+                margin-top: 10px;
+                margin-left: 10px;
+                padding-bottom: 27px;
+}
+
+#accountDetails #transactionContainer #postedTansactionTable .cA-productErrMessInvTJ  {
+                margin: 15px 0px 0px 3px;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable tr td {
+                border-bottom: 1px solid #DEDEDE;
+    padding: 5px 10px;
+}
+#accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowWhite {
+    position: relative;
+    top: -11px;
+                left: -10px;
+                background-color: #fff;
+}
+HTML.vIE8 #accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowWhite {
+                top: -11px;
+}
+HTML.vIE7 #accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowWhite {
+                top: -6px;
+}
+#accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowGrey{
+                position: relative;
+    top: -12px;
+                left: -10px;
+}
+HTML.vIE8 #accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowGrey {
+                top: -12px;
+}
+HTML.vIE7 #accountDetails #transactionContainer #postedTansactionTable .cM-largeDownArrowGrey {
+                top: -6px;
+}
+#postedTansactionTable table.cT-invTJTable tr td {
+                height: 43px;
+                vertical-align: top;
+}
+#postedTansactionTable table.cT-invTJTable .cA-invTJWrapper {
+                border-right: 1px solid #DEDEDE;
+                display: block;
+                float: left;
+                height: 43px;
+                width: 39px;
+}
+#postedTansactionTable table .cM-plusIcon, 
+#postedTansactionTable table .cM-minusIcon {
+                display: block;
+                top: 14px!important;
+                margin-left: 8px;
+}
+html.vIE7 table.cT-invTJTable .cM-spriteBase.cM-plusIcon,
+html.vIE8 .cM-spriteBase.cM-plusIcon,
+html.vIE7 table.cT-invTJTable .cM-spriteBase.cM-minusIcon,
+html.vIE8 table.cT-invTJTable .cM-spriteBase.cM-minusIcon {
+                position: relative;
+}
+#postedTansactionTable table .cM-minusIcon {
+                top: 20px!important;
+}
+#postedTansactionTable table .cM-plusIcon:hover {
+                background-position: -16px -4px;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable tr.cT-expandCollapseRow {
+                background-color: #fff !important;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet .cA-detGrp1,
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet .cA-detGrp2 {
+                width: 250px;
+                height: 35px;
+                margin-left: 10px;
+                border-right: 1px solid #DEDEDE;
+                float:left;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet .cA-detGrp3 {
+    width: 250px;
+    height: 35px;
+    margin-left: 10px;
+    float:left;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet {
+                height: 120px;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet .cA-detGrp1 {
+                margin-left: 60px;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-invTJExtDet .cA-extLableheader {
+                display: block;
+                font-weight: bold;
+                margin-left: 60px;
+                margin-bottom: 20px;
+                color: #333;
+}
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp1 span.cT-ext-Line2,
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp2 span.cT-ext-Line2,
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp3 span.cT-ext-Line2 {
+                display:block;
+    float:right;
+                clear:both;
+    padding-right: 20px;
+    /* Defect: 21251 */
+     *white-space: nowrap;
+}
+
+/* Defect: 21251 */
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp1 span.cT-ext-Line1,
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp2 span.cT-ext-Line1,
+#accountDetails #transactionContainer #postedTansactionTable table.cT-invTJTable .cT-expandCollapseRow .cT-genericDetails .cA-detGrp3 span.cT-ext-Line1 {
+    *float: left;
+}
+
+/* Defect: 21251 */
+.cA-grp2Contents{
+                *width: 251px;
+}
+
+/*added for defect id:20520*/
+#accountDetails #transactionContainer #transactionPanel .cA-systemErrorOnInvTJ .cA-systemErrMessInvTJ {
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+}
+
+#accountDetails #closeFilterInvTJPanel {
+                float: right;
+                margin-right: 11px;
+                cursor: pointer;
+                margin-top: -32px;
+}
+/*added for defect id:21535*/
+#accountDetails #transactionContainer > #transactionPanel table.cT-transactionTable > tbody > tr > td.cT-bodyTableColumn0 {
+                text-align: center;
+}
+#accountDetails #keywordInputBoxContainer #advancedSearchLink {
+                margin-left: 0;
+                width: auto;
+}
+#accountDetails #transactionContainer #filterPanel #extendedSearchPanel .cA-searchTransButton:hover {
+                text-decoration: none;
+}
+#accountDetails #dateRangeDropdown .cT-blueButton, #accountDetails #specificDateFilterDropdown .cT-blueButton {
+                margin-left: 10px;
+}
+/*added for defect id:21527*/
+#accountDetails #transactionContainer #filterPanel .cF-inputChoiceList {
+                float: none;
+                margin-left: 200px;
+                margin-top: 2px;
+}
+
+#accountDetails #transactionContainer #filterPanel .cF-inputChoiceList .cF-value {
+                height: 20px;
+}
+
+#accountDetails #transactionContainer #postedTansactionTable .cA-invTJHelpSection {
+                float: right;
+    margin-top: 12px;
+    line-height: 17px;
+                position: relative; 
+    top: 5px;
+}
+#accountDetails #transactionContainer #postedTansactionTable .cM-TJhide {
+                display: none;
+}
+#accountDetails #transactionContainer #postedTansactionTable .cA-invTJviewMoreLink { 
+                margin-top: 20px;
+}
+
+#accountDetails #transactionContainer #postedTansactionTable  .cM-viewMoreTJHide, 
+#accountDetails #transactionContainer #postedTansactionTable .cM-viewAllTJHide {
+                display: none;
+}
+#accountDetails #transactionContainer #postedTansactionTable .viewMoreButtons,  
+#accountDetails #transactionContainer #postedTansactionTable .viewAllButtons,
+#accountDetails #transactionContainer #postedTansactionTable .cM-endOfTJ, 
+#accountDetails #transactionContainer #postedTansactionTable .cM-endOfSearchTJ,
+#accountDetails #transactionContainer #postedTansactionTable .cM-endOfFilterTJ {
+                margin-top: 20px;
+}
+#accountDetails #transactionContainer #filterPanel .cF-appInput input {
+                cursor: pointer;
+                padding: 0;
+}
+#accountDetails .viewMoreButtons a:hover {
+                text-decoration: none;
+}
+#accountDetails .viewAllButtons a:hover {
+                text-decoration: none;
+}
+
+.btnTJShowAll{
+                width: 76px !important;
+}
+
+.btnTJbuy, .btnTJsell{
+                width: 71px !important;
+}
+
+.btnTJtransfers{
+                width: 84px !important;
+}
+
+.btnTJcorporateaction{
+                width: 107px !important;
+}
+
+#accountDetails .cF-accountSelect.ui-selectmenu.jfpw-select .ui-selectmenu-status .cS-accountMenuAccount span sup{vertical-align:top;}
+
+html.vIE7 #accountDetails #transactionContainer #postedTansactionTable #InvTJHelpSection .cM-tooltip {
+                border-bottom: 1px dotted #999;
+}
+html.vIE7 #accountDetails #transactionContainer #postedTansactionTable #InvTJHelpSection .cM-tooltip:hover {
+                border-bottom: 1px dotted #05889D;
+}
+#accountDetails #transactionContainer #filterPanel #buttonPanel #keywordInputBoxContainer.cA-invTJSearch #keywordInputBox, 
+#accountDetails #transactionContainer #filterPanel #buttonPanel #keywordInputBoxContainer.cA-invTJSearch #keywordInputBoxTJ {
+                margin-top: -9px;
+}
+#accountDetails .cT-tableBase.cT-invTJTable.tablesorter thead tr.tablesorter-headerRow th .tablesorter-header-inner > .cT-noWrap.cM-extend {
+                display: inline;
+}
+#accounDetailsEOT {
+                margin-top: 20px;
+                margin-bottom: 200px;
+}
+#transactionContainer{
+                float:left;
+                min-height:200px;
+                width:100%;
+}
+
+#accountDetails #accountRadioFilterPanel .cA-radioFilterAllContainer .cA-radioFilterLabelContainer {
+                float: left;
+    line-height: 16px;
+    width: 30px;
+                padding-left: 0px;
+                margin-right: 12px;
+}
+
+#accountDetails #accountRadioFilterPanel .cA-radioFilterAllContainer .cA-radioFilterLabelInputContainer {
+    float: left;
+}
+
+#accountDetails #accountRadioFilterPanel .cA-radioFilterAllContainer .cA-radioFilterLabel1 {
+                padding-top: 5px;
+}
+
+/*added for adabanking TJ Instructional Text in advance search panel*/
+#accountDetails #instText {
+                float: left;
+                line-height: 18px;
+                margin-left: 25px;
+                margin-top: 5px;
+                width:70%;
+}
+#accounDetailsEOT {
+                margin-top: 20px;
+                margin-bottom: 200px;
+}
+
+#transactionContainer {
+                float: left;
+                min-height: 200px;
+                width: 100%;
+}
+
+#footer.cS-mainFooter {
+                clear: both;
+}
+/* Added for Amortization Table header by mt28439 */
+#amortizationHeader{    
+                float: left;
+    padding-top: 19px;
+}
+/* Added for Amortization Table by mt28439 */
+.cT-Amortable{
+                width:100%;
+                line-height:18px;
+                border-bottom: 1px solid #ccc;
+}
+/* Added for Amortization Table title by mt28439 */
+.cH-amortTableTitle {
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+}
+/* Added for Amortization Table header by mt28439 */
+.cT-Amortable > thead{
+                border-bottom: 1px solid #ccc;
+}
+/* Added for Amortization Table Amount Column by mt28439 */
+.cT-Amortable thead tr th.cT-numberColumn {
+                text-align: right;
+}
+/* Added for Amortization Table Date by mt28439 */
+.cT-Amortable thead tr th.cT-dateColumn{
+                text-align: left;
+
+}
+/* Added for Amortization Table header section by mt28439 */
+#accountDetails #transactionPanel table.cT-Amortable > thead > tr > th {
+
+padding-top:6px;
+
+}
+/* Added for Amortization Table row section by mt28439 */
+.cT-Amortable tbody tr td{
+                text-align: left;
+                vertical-align:top;
+
+}
+/* Added for Amortization Table span with cT-numberColumn class by mt28439 */
+.cT-Amortable tbody tr td.cT-numberColumn span{
+                float:right;
+                clear:both;
+                line-height:18px;
+}
+#accountDetails #transactionContainer #transactionPanel #postedTansactionTable  #amortViewXMore.cA-invTJviewMoreLink {
+  margin-top: 30px;
+}
+.cT-transactionOfferValue{
+display:inline-block;
+width:210px;
+word-break: break-all;
+
+}
+.cT-transactionOfferLabel{
+display:inline-block;
+width:150px;
+word-break: break-all;
+vertical-align:top;
+}
+/*
+.jfpw-tooltip-datepicker {
+width: 179px!important;
+min-width: 179px;
+}*/
+#accountNameContainer {
+    display: inline-block;
+    width: 350px; 
+}
+/* Added for Delayed SubField Scenario*/
+div.wrapperDiv div.cT-errorMessage span.cM-negErrIcon{
+margin-right: 6px;
+}
+
+/* Added for card filter tooltip  */
+.primaryLVP, .secondaryLVP{
+ float: left;
+ text-align: left;
+ width: 100%;
+}
+.secondaryLVP{
+ float: left;
+ text-align: left;
+ width: 100%;
+}
+.cardTooltip div{
+word-wrap: break-word;
+margin-bottom:5px; 
+width:50%;
+ float: left;
+}
+.cT-black{
+color: #333;
+}
+.tooltipAvailable{
+cursor:pointer;
+}
+.tooltipNotAvailable{
+cursor:default !important;
+}
+/* Fix for ADA FireEyes issue*/
+#filterToText_specificdate,#filterToText_daterange{
+                float: left;
+                margin-top: 7px;
+                margin-right: 8px;
+                margin-left: 6px; 
+}
+/* DIG 19.4 Changes For Fee/Interest Waiver */
+
+.cbolui-tranWaiverTitle{
+   top : 7px;
+   position:relative;
+}
+.cbolui-bullet{
+	margin-left : 15px;
+}
+.cbolui-tranWaiverBody{
+	left: 12px;
+    position: relative;
+    top: 56px;
+}
+.cbolui-tranWaiverSubBody{
+	left: 30px;
+    position: relative;
+    top: 75px;
+}
+.cbolui-tranWaiverHeader{
+	left: 12px;
+    position: relative;
+    top: 19px;
+}
+.cbolui-tranWaiverTitle{
+	left: 12px;
+    position: relative;
+    top: 34px;	
+}
+#feeSuccessOverlay{
+	!border: 1px solid black;
+}
+.feeSuccessOverlayBody{
+	border: 1px solid #e2e2e2;
+    color: #000000;
+    font-family: Arial,Verdana,sans-serif ;
+    font-size: 12px;
+    height: 319px;
+    position: relative;
+    top: 10px;
+}
+/*added for DIG 20*/
+.feeSuccessOverlayBodyDiscasman{
+	border: 1px solid #e2e2e2;
+    color: #000000;
+    font-family: Arial,Verdana,sans-serif ;
+    font-size: 12px;
+    height: 310px;
+    position: relative;
+    top: 10px;
+}
+.cbolui-tranWaiverSubBodyLine{
+	border-top: 1px solid #e2e2e2;
+    left: 21px;
+    position: absolute;
+    top: 256px;
+    width: 429px;
+}
+/*added for DIG 20*/
+.cbolui-tranWaiverSubBodyLinedotted{
+	border-top: 1px dotted #e2e2e2;
+    left: 21px;
+    position: absolute;
+    top: 256px;
+    width: 429px;
+}
+.cbolui-SubBodyLineOverlay{
+	border-top: 1px solid #e2e2e2;
+    left: 21px;
+    position: relative;
+    top: 40px;
+    width: 429px;
+}
+
+.cbolui-tranWaiverSubBodyLineError{
+	  border-top: 1px solid #e2e2e2;
+    left: 21px;
+    position: absolute;
+    top: 262px;
+    width: 429px;
+}
+.customerCareDetContactUS{
+	font-size: 19px;
+    left: -12px;
+    position: relative;
+}
+.SendMsgLinkForOvrlay a {
+	left: 65px;
+    position: relative;
+    color: #333333;
+}
+.SendMsgLinkForOvrlay a:hover{
+	color: #05589d;
+	}
+.CallUsLinkForOvrLay a {
+	left: 84px;
+    position: relative;
+    color: #333333;
+}
+.CallUsLinkForOvrLay a:hover {
+	color: #05589d;
+	}
+.LiveChatLinkForOvrlay  {
+	left: 43px;
+    position: relative;
+    color: #333333;
+}
+.LiveChatLinkForOvrlay a {
+	color: #333333;
+	}
+.LiveChatLinkForOvrlay a:hover{
+	 background-position:-1px -293px;
+	 color: #05589d;
+}
+.customerCareDetContactUSBorder{
+	border-right: 1px solid #999999;
+    color: #333333;
+    left: 25px;
+    position: relative;
+}
+.cM-chatIconFee {
+    background-position: -1px -87px;
+    height: 13px;
+    left: 37px;
+    width: 16px;
+}
+
+.cM-sendMessageIconFee {
+    background-position: -1px -282px;
+    height: 10px;
+    left: 61px;
+    width: 16px;
+}
+
+.cM-callUsIconFee {
+    background-position: -1px -335px;
+    height: 15px;
+    left: 75px;
+    width: 14px;
+}
+.cM-spriteBase {
+    background-image: url("/CBOL/common/images/global_sprite.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    position: relative;
+}
+.customerCareDetails_fee {
+	position: relative;
+    top: 211px;
+}
+.border{
+	border-right: 1px solid;
+    left: 51px;
+    position: relative;
+}
+.border1{
+	border-right: 1px solid;
+    left: 72px;
+    position: relative;
+}
+.successOverlayHeader{
+	color: #000000;
+    font-family: Arial,Verdana,sans-serif ;
+    font-size: 18px;
+}
+.customerCareDetails_int {
+	position: relative;
+    top: 193px;
+}
+.customerCareDetails_Error {
+	position: relative;
+    top: 275px;
+}
+#InElgCustOvrl_CloseBtn_fee{
+	left: 395px;
+    top: 173px;
+    color: #FFFFFF;
+}
+
+#InElgCustOvrl_CloseBtn_feeSuccess{
+  	!height: 19px;
+   ! left: 357px;
+    !position: relative;
+   !top: 179px;
+}
+#InElgCustOvrl_CloseBtn_intSuccess{
+	!height: 19px;
+    !left: 357px;
+    !position: relative;
+    !top: 179px;
+}
+
+#InElgCustOvrl_CloseBtn_int{
+	 color: #FFFFFF;
+    font-weight: bold;
+    left: 14px;
+    top: 4px;
+}
+#InElgCustOvrl_CloseBtn_fee{
+	 color: #FFFFFF;
+    font-weight: bold;
+    left: 14px;
+    top: 4px;
+}
+.cM-IconError{
+    background-position: -1px -212px;
+    height: 12px;
+    left: 0px;
+    width: 16px;
+}
+.cbolui-tranWaiverTitleError{
+	left: 13px;
+    position: relative;
+    top: 34px;
+    width: 438px;
+}
+#overlayFooter{
+	 
+    top: 319px;
+}
+#overlayFooterFee{
+	position: absolute;
+    top: 319px;
+}
+/* added for DIG 20*/
+#overlayFooterDisCasMan{
+	position: absolute;
+    top: 310px;
+	left: 0px;
+}
+#overlayFooterInt{
+	 position: absolute;
+    top: 319px;
+}
+#overlayFooterInElgFee{
+	position: absolute;
+    top: 319px;
+}
+#overlayFooterInElgInt{
+   position: absolute;
+    top: 319px;
+}
+#overlayConfirFooterFee{
+	position: absolute;
+    top: 318px;
+}
+#confirOvrlCloseBtn_FeeSuccess{
+	background: none repeat scroll 0 0 #05589d;
+    border: 1px solid;
+    font-weight: bold;
+    height: 14px;
+    left: 400px;
+    position: relative;
+    top: 145px;
+    width: 50px;
+     cursor: pointer;
+}
+.cM-IconConfirm{
+	background-position: 0 -616px;
+    height: 12px;
+    left: 0;
+    width: 16px;
+}
+.waiverConfirmationFeeOverlayBody{
+	border: 1px solid #e2e2e2;
+    height: 317px;
+    position: relative;
+    top: 5px;
+    width: 476px;
+}
+.cbolui-tranWaiverSubBodyConfirm{
+	left: 12px;
+    padding: 2px;
+    position: relative;
+    top: 60px;
+}
+.cbolui-tranWaiverSubBodyCon{
+	left: 30px;
+    position: relative;
+    top: 88px;
+}
+.cbolui-tranWaiverBodyCon{
+	left: 12px;
+    position: relative;
+    top: 78px;
+}
+.cbolui-tranWaiverSubBodyConFee{
+	left: 30px;
+    padding: 2px;
+    position: relative;
+    top: 95px;
+}
+.requestNumberConfirm{
+	padding-left: 20px;
+    position: relative;
+    top: 4px;
+}
+.cbolui-tranWaiverSubBodyLineCon{
+	  border-top: 1px solid #e2e2e2;
+    left: 23px;
+    position: absolute;
+    top: 261px;
+    width: 429px;
+}
+.requestNumberConfirmVal{
+	
+	font-weight: bold;
+    right: 217px;
+    top: 18px;
+    padding-left: 3px;
+}
+.latePaymentFeeWaivedVal{
+    left: 220px;
+    position: absolute;
+    top: 0px;
+}
+.interestAccuredOnFeeVal{
+    left: 170px;
+    position: absolute;
+    top: 0px;
+}
+.interestAccuredVal{
+    left: 220px;
+    position: absolute;
+    top: 0px;
+}
+.requestDateVal{
+   left: 220px;
+   position: absolute;
+   top: 0px;
+}
+.requestStatusVal{
+   left: 220px;
+   position: absolute;
+   top: 0px;
+}
+.buttonPanelFee{
+	float: right;
+	left:-5px;
+    position: absolute;
+    top: 268px;
+    width: 100%;
+}
+/* added for DIG 20 */
+.buttonPanelPrimaryCTA{
+	float: right;
+	left:-26px;
+    position: absolute;
+    top: 268px;
+    width: 100%;
+}
+.ElgCustOvrlButton{
+	 left: 30px;
+}
+.inElgCustOvrlButton{
+	left:26px;
+}
+.ElgCustOvrlButtonCancel{
+	left: 14px;
+    position: relative;
+}
+.interestSuccessOverlay{
+	border: 1px solid #e2e2e2;
+    color: #000000;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 12px;
+    height: 319px;
+    position: relative;
+    top: 10px;
+}
+.buttonPanelInt{
+	float: right;
+  	left:-5px;
+    position: absolute;
+    top: 268px;
+    width: 100%;
+}
+#ConfirmOvrl_CloseBtn_fee{
+	 color: #FFFFFF;
+}
+#ConfirmOvrl_CloseBtn_int{
+	 color: #FFFFFF;
+}
+.cnfrmOvrlCloseBtn{
+	 left : 27px;
+	 top : 122px; 
+}
+.errorOvrlCloseBtn{
+	 color: #FFFFFF;
+     font-weight: bold;
+     top: 246px;
+     left: 25px;
+}
+#ErrOvrlCloseBtn_Fee{
+	 color: #FFFFFF;
+}
+#ErrOvrlCloseBtn_Int{
+	 color: #FFFFFF;
+}
+#ElgCustOvrl_ReqFeeWvrBtn_fee{
+	 color: #FFFFFF;
+}
+#ElgCustOvrl_ReqIntAdjBtn_int{
+	 color: #FFFFFF;
+}
+.confBodyText{
+    padding-left: 20px;
+    position: relative;
+}
+.classErrorBtn{
+margin-top:24px;
+	margin-right:27px;	
+	
+	
+}
+.classErrorBtn ul.cN-primaryNav {
+	padding-right:0;
+}
+
+.classErrorBtn .errorOvrlCloseBtn {
+	top:0;
+	left:0;
+}
+
+.classErrorBtn .inElgCustOvrlButton {
+	top:0;
+	left:0;
+}
+
+
+
+#checkImgConfOvrly{
+	float:left;
+}
+div ul.cN-primaryNav {
+    float: right;
+    
+}
+.errorOverlayBodyTitle{
+	padding-right: 15px;
+}
+.errorOverlayBodyText{
+	padding-left: 4px;
+}
+/* End of DIG 19.4 Changes For Fee/Interest Waiver */
+
+/* Added for color code of percentage values of unrealized gains/loss */
+.cM-Green{
+color: green;
+}
+/*Help icon addition for labels in ACP investment templates */
+
+.cT-lnvLabelHelpIcon > .cM-helpIcon, #regionalPricingLink > .cM-helpIcon, .cT-rewardsHeader > .cM-helpIcon, #riskSummaryHelpIcon{
+top: 2px !important;
+}
+.cT-rewardsLabel > .cM-helpIcon{
+top: 2px !important;
+padding-left:0px !important;
+}
+.needHelpIconTJ{
+top: 1px !important;
+}
+/*For Inv account Dropdown button configuration*/
+#accountDropdown.InvAccount .jfpw-select-wrapper #accountDropdownSelect-button{
+
+display:inline-block;
+float:left;
+}
+#accountDropdown.InvAccount .cT-blueButton{
+	float: right;
+    margin-right: 10px;    
+}
+.containerSliderClass{
+	height: 254px;
+	outline: medium none;
+	overflow: hidden;
+}
+.sliderVerticalClass{
+	
+	position:absolute;
+	right:4px;
+	top:4px;
+} 
+.cT-mortgageTable{
+                width:100%;
+                line-height:18px;
+                border-bottom: 1px solid #ccc;
+}
+.cT-mortgageTable > thead{
+                border-bottom: 1px solid #ccc;
+}
+.cT-mortgageTable thead tr th.cT-numberColumn {
+                text-align: right;
+}
+.cT-mortgageTable thead tr th.cT-dateColumn{
+                text-align: left;
+
+}
+/* Added for Amortization Table header section by mt28439 */
+#accountDetails #transactionPanel table.cT-mortgageTable > thead > tr > th {
+	padding-top:6px;
+}
+/* Added for Amortization Table row section by mt28439 */
+.cT-mortgageTable tbody tr td{
+    text-align: left;
+    vertical-align:top;
+
+}
+/* Added for Amortization Table span with cT-numberColumn class by mt28439 */
+.cT-mortgageTable tbody tr td.cT-numberColumn span{
+    float:right;
+    clear:both;
+    line-height:18px;
+}
+#mortgageFilterPanel{
+	margin-left: 12px;
+}
+#mortgageFilterPanel .cN-mortgageFilterButton{
+	background-image: url('/CBOL/ain/accdetact/css/buttonGradient.png');
+    background-position: 0 -36px;
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 12px;
+    width: 107px;
+    word-wrap: break-word;
+    padding: 12px 17px;
+    text-align: center;
+}
+
+.cT-Wrap > div , .cT-Wrap > span{
+	 clear: left;
+    float: left;
+    white-space: normal;
+    width: 200px;
+    
+}
+.cT-mortgageTable tbody tr td.cT-Wrap{
+	width:150px;
+}
+.invGrey{
+	color:#000000;
+}
+#accountDropdown .cM-spriteBase {
+    margin-right: 0px !important;
+}
+#accountDropdown.InvAccount .cT-blueButton.toPadding
+{
+padding-top:5px;
+}
+/*added for disclosure*/
+#linksDiscContainer {
+float:left;
+}
+#accountDetails #linksDiscContainer #disclosureLink{
+padding-top: 19px;
+}
+
+/*			     pagination Template              */
+
+
+.dataTables_paginate{
+margin-top:18px;
+}
+.dataTables_length{
+margin-top:18px;
+}
+
+.information{
+	clear: none !important;
+  	margin-left: 50px;
+   text-align: right;
+    margin-top: 21px;
+    
+    
+}
+.dataTables_paginate + .dataTables_info{
+	float:right;
+}
+
+body{margin-bottom: 100px;}
+
+/* row border */
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-top: none;
+}
+
+/* row color */
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd,table.cT-tableBase.cT-alternateRowColor.cT-invTJTable.dataTable tbody tr.odd  {
+    background-color: #EFEFF0 !important;
+}
+
+
+
+.dataTables_wrapper #NOTES_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #BROKERAGE_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #BONDS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #FUNDS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #TIMEDEPOSITS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #SAVINGS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #UMBRELLA_paginate.dataTables_paginate .paginate_button,
+ #UMBRELLA_length .paginate_button,
+ #SAVINGS_length .paginate_button,
+ #TIMEDEPOSITS_length .paginate_button,
+ #NOTES_length .paginate_button,
+ #BONDS_length .paginate_button,
+ #FUNDS_length .paginate_button,
+ #BROKERAGE_length .paginate_button,
+ 
+ .dataTables_wrapper #tbl-NOTES_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #tbl-BROKERAGE_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #tbl-BONDS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #tbl-FUNDS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #tbl-TIMEDEPOSITS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #tbl-SAVINGS_paginate.dataTables_paginate .paginate_button,
+.dataTables_wrapper #UMBRELLA_paginate.dataTables_paginate .paginate_button,
+ #UMBRELLA_length .paginate_button,
+ #tbl-SAVINGS_length .paginate_button,
+ #tbl-TIMEDEPOSITS_length .paginate_button,
+ #tbl-NOTES_length .paginate_button,
+ #tbl-BONDS_length .paginate_button,
+ #tbl-FUNDS_length .paginate_button,
+ #tbl-BROKERAGE_length .paginate_button
+  {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    min-width: 36px;
+    min-height:36px;
+    padding: 0.9em;
+    text-align: center;
+    text-decoration: none !important;
+	background: #ffffff;
+	color: #333333 ; 
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+#NOTES_length .paginate_button.current,
+#BROKERAGE_length .paginate_button.current,
+#BONDS_length .paginate_button.current,
+#FUNDS_length .paginate_button.current,
+#UMBRELLA_length .paginate_button.current,
+#TIMEDEPOSITS_length .paginate_button.current,
+#SAVINGS_length .paginate_button.current,
+#SAVINGS_paginate .paginate_button.current,
+#TIMEDEPOSITS_paginate .paginate_button.current,
+#UMBRELLA_paginate .paginate_button.current,
+#NOTES_paginate .paginate_button.current,
+#BONDS_paginate .paginate_button.current,
+#BROKERAGE_paginate .paginate_button.current,
+#FUNDS_paginate .paginate_button.current,
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+#tbl-NOTES_length .paginate_button.current,
+#tbl-BROKERAGE_length .paginate_button.current,
+#tbl-BONDS_length .paginate_button.current,
+#tbl-FUNDS_length .paginate_button.current,
+#UMBRELLA_length .paginate_button.current,
+#tbl-TIMEDEPOSITS_length .paginate_button.current,
+#tbl-SAVINGS_length .paginate_button.current,
+#tbl-SAVINGS_paginate .paginate_button.current,
+#tbl-TIMEDEPOSITS_paginate .paginate_button.current,
+#UMBRELLA_paginate .paginate_button.current,
+#tbl-NOTES_paginate .paginate_button.current,
+#tbl-BONDS_paginate .paginate_button.current,
+#tbl-BROKERAGE_paginate .paginate_button.current,
+#tbl-FUNDS_paginate .paginate_button.current
+ {
+ 	border-bottom: 0px !important;
+  	padding-bottom: 0px !important;  
+    background: #666666 !important;
+    border: 1px solid #cccccc;
+    color: #ffffff !important;
+}
+
+.dataTables_wrapper #BONDS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #SAVINGS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #TIMEDEPOSITS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #UMBRELLA_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #FUNDS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #BROKERAGE_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #NOTES_paginate.dataTables_paginate .paginate_button:hover,
+ #UMBRELLA_length .paginate_button:hover,
+ #SAVINGS_length .paginate_button:hover,
+ #TIMEDEPOSITS_length .paginate_button:hover,
+ #BONDS_length .paginate_button:hover,
+ #FUNDS_length .paginate_button:hover,
+ #BROKERAGE_length .paginate_button:hover,
+ #NOTES_length .paginate_button:hover,
+ 
+ .dataTables_wrapper #tbl-BONDS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #tbl-SAVINGS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #tbl-TIMEDEPOSITS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #UMBRELLA_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #tbl-FUNDS_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #tbl-BROKERAGE_paginate.dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper #tbl-NOTES_paginate.dataTables_paginate .paginate_button:hover,
+ #UMBRELLA_length .paginate_button:hover,
+ #tbl-SAVINGS_length .paginate_button:hover,
+ #tbl-TIMEDEPOSITS_length .paginate_button:hover,
+ #tbl-BONDS_length .paginate_button:hover,
+ #tbl-FUNDS_length .paginate_button:hover,
+ #tbl-BROKERAGE_length .paginate_button:hover,
+ #tbl-NOTES_length .paginate_button:hover 
+   { 
+  border-bottom: 4px solid #0076c0 ;
+  padding-bottom: 2px ;  
+  color: #333333 ;
+}
+
+#BONDS_previous.paginate_button.previous.disabled,
+#FUNDS_previous.paginate_button.previous.disabled,
+#BROKERAGE_previous.paginate_button.previous.disabled,
+#NOTES_previous.paginate_button.previous.disabled,
+#UMBRELLA_previous.paginate_button.previous.disabled,
+#SAVINGS_previous.paginate_button.previous.disabled,
+#TIMEDEPOSITS_previous.paginate_button.previous.disabled,
+#UMBRELLA_next.paginate_button.next.disabled,
+#SAVINGS_next.paginate_button.next.disabled,
+#TIMEDEPOSITS_next.paginate_button.next.disabled,
+#BONDS_next.paginate_button.next.disabled,
+#FUNDS_next.paginate_button.next.disabled,
+#BROKERAGE_next.paginate_button.next.disabled,
+#NOTES_next.paginate_button.next.disabled,
+
+#tbl-BONDS_previous.paginate_button.previous.disabled,
+#tbl-FUNDS_previous.paginate_button.previous.disabled,
+#tbl-BROKERAGE_previous.paginate_button.previous.disabled,
+#tbl-NOTES_previous.paginate_button.previous.disabled,
+#UMBRELLA_previous.paginate_button.previous.disabled,
+#tbl-SAVINGS_previous.paginate_button.previous.disabled,
+#tbl-TIMEDEPOSITS_previous.paginate_button.previous.disabled,
+#UMBRELLA_next.paginate_button.next.disabled,
+#tbl-SAVINGS_next.paginate_button.next.disabled,
+#tbl-TIMEDEPOSITS_next.paginate_button.next.disabled,
+#tbl-BONDS_next.paginate_button.next.disabled,
+#tbl-FUNDS_next.paginate_button.next.disabled,
+#tbl-BROKERAGE_next.paginate_button.next.disabled,
+#tbl-NOTES_next.paginate_button.next.disabled
+{
+	border-bottom: 0px !important;
+  	padding-bottom: 0px !important;  
+	border: medium none;
+	border-width:0px;
+	opacity: 0.5;
+	background-color:#EEEEEE;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: #333333 !important;
+}
+
+table.dataTable tr.display.even {
+	background: #f4f1f1 none repeat scroll 0 0;
+}
+#ui-tabs-1,#ui-tabs-2{
+	border-bottom-width: 0;
+	border-top-width: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#invCrossLinkTabs .ui-state-default.ui-corner-top.crossinvLinkSelect {	
+	border-bottom: 1px solid #f1f1f1 !important;
+	background: -webkit-linear-gradient(top,#fff,#f1f1f1) !important;
+	background: -moz-linear-gradient(top,#fff,#f1f1f1) !important;
+	background: -ms-linear-gradient(top,#fff,#f1f1f1) !important;
+	background: -o-linear-gradient(top,#fff,#f1f1f1) !important;
+	background: linear-gradient(top,#fff,#f1f1f1) !important;
+}
+#invCrossLinkTabs .ui-state-default.ui-corner-top { 
+    border: 1px solid #ccc !important;
+    margin-right: 5px;
+}
+#invCrossLinkTabs .ui-helper-clearfix:after{
+	clear: none;
+}
+.endOfHoldongs{
+	padding-top: 10px;
+	padding-bottom:10px;
+	width:100%;
+	height:20px;
+	text-align:center;
+}
+.endOfHoldingsTable{
+	margin-bottom: 20px !important;
+}
+.endOfTransactions{	
+	width:100%;
+	height:20px;
+	text-align:center;
+}
+.endOfTransactionsTable{
+	margin-bottom: 20px !important;
+}
+
+.cF-sideBySide .cF-element label span.invSeperateTolltip{
+	display:inline-block;
+	margin-bottom:5px;
+}
+
+/*datatable sorting icon change*/
+table.dataTable thead tr.cT-tableHeader th.sorting, table.dataTable thead tr.cT-tableHeader th.sorting_asc, table.dataTable thead tr.cT-tableHeader .sorting_desc:hover, table.dataTable thead tr.cT-tableHeader .sorting_asc:hover, table.dataTable thead tr.cT-tableHeader th.sorting_desc {
+background-position:right 13px !important;
+}
+table.dataTable thead tr.cT-tableHeader th.sorting {
+background-image:url("/CBOL/ain/accdetact/images/sort_both.png") !important;
+}
+table.dataTable thead tr.cT-tableHeader th.sorting_asc {
+background-image:url("/CBOL/ain/accdetact/images/sort_asc.png") !important;
+}
+table.dataTable thead tr.cT-tableHeader .sorting_asc:hover {
+background-image:url("/CBOL/ain/accdetact/images/sort_asc_hover.png") !important;	
+}
+table.dataTable thead tr.cT-tableHeader th.sorting_desc {
+background-image:url("/CBOL/ain/accdetact/images/sort_desc.png") !important;
+}
+table.dataTable thead tr.cT-tableHeader .sorting_desc:hover {
+background-image:url("/CBOL/ain/accdetact/images/sort_desc_hover.png") !important;	
+}
+#accountDetails #transactionContainer > #transactionPanel table.cT-tableBase > thead > tr > th:hover {
+	color:#05589D;
+}
+
+.dataTables_filter {
+display : none !important;
+}
+
+#specificDateDropdowndc .ui-datepicker.ui-widget, #dateRangeFromdc .ui-datepicker.ui-widget, #dateRangeTodc .ui-datepicker.ui-widget {
+    font-size: 12px;
+}
+#accountSingle .cS-accountMenuResolver{
+	float:right;
+	padding-right:0px;
+}
+.invButtonLink{
+	float: right;
+    margin-right: 10px; 
+	
+}
+#accountDropdown{
+
+width:570px;
+float:left;
+
+}
+.invButtonLink.toPadding
+{
+padding-top:5px;
+}
+/* Fix for defect #3033 */
+#accountDetails > #accountInfoPanel #rewardsContainer .cA-rewardsLabelValues .cT-blueButton a sup{
+    line-height: 12px;
+}
+
+/* added for ADA Tsx Transaction Window : Starts */
+#printRecordContainer.tjTaxRecordContainer {
+	 width : 555px;
+     float : none;
+}
+#printerFriendlyContainer form {
+        width : 555px;
+        float : left;
+}
+.taxTxnHeader{
+	margin-top: 40px;
+	padding-top: 16px;
+}
+#taxFieldsBody {
+    width: 555px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    margin-bottom:48px;
+}
+#taxHostError{
+	width : 555px;
+}
+#printRecordContainer #printRecordCommonInfo.tjTaxRecordInfo{
+	padding-top : 30px;
+	padding-bottom : 30px;
+}
+#taxFieldsBody .cM-hide {
+    display: none;
+}
+#taxFieldsBody .cM-bold {
+    font-weight: bold;
+}
+#taxFieldsBody .cS-negativeTypeValue{
+    color: #D60000 !important;
+}
+#viewRecordPrintFooter{
+	width: 555px;
+	float: left;
+	font-size: 12px;
+    font-weight: bold;
+   	margin: 48px 35px 30px; 
+	color: #666666;
+	line-height: 1.5;
+}
+#taxFieldsBody .cF-value span {
+    width: 300px;
+    word-wrap: break-word;
+}
+#taxFieldsBody label{
+ 	word-wrap: break-word;	
+}
+
+#printerFriendlyContainer #taxTransactionFields,
+#printerFriendlyContainer #viewRecordPrintFooter {
+	float:none;
+}
+
+/* added for ADA Tsx Transaction Window : Ends */
